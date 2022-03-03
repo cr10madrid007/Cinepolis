@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "BTCsZPayrWvMr6ML+R6YKg3v37Q3e54inp0MNcRUmFW2UTPlHLwc9TCnZqKr06R5Ed4YRFq7/9vhjfSxhHax/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\crist\\source\\repos\\Cinepolis\\Cinepolis\\Cinepolis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512"
+  ],
+  "logs": []
+}

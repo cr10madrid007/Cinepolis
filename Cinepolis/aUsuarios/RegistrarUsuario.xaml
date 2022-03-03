@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cinepolis.aUsuarios.RegistrarUsuario">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+           
+                <Frame  BackgroundColor="White"  HasShadow="True" Padding="0" Margin="0">
+
+
+                    <StackLayout Padding="0" Margin="15,10">
+                        <Label Text="CINEPOLIS" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="Title" />
+                        <Label Text="Datos personales" TextColor="Black" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Start" FontAttributes="Italic"/>
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="https://cdn4.iconfinder.com/data/icons/interface-80/24/user_circle_interface_person-512.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry Placeholder="Nombre" x:Name="txtNombre" TextColor="Black"   PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="https://www.findool.com/images/avatars/avatar.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry Placeholder="Apellidos" x:Name="txtApellidos" TextColor="Black"  PlaceholderColor="Gray"   FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="correo.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry Placeholder="Correo" x:Name="txtCorreo" PlaceholderColor="Gray" TextColor="Black" Keyboard="Email" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="https://images.all-free-download.com/images/graphicthumb/lock_icon_6813906.jpg" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry Placeholder="Contraseña" x:Name="txtPass" PlaceholderColor="Gray" TextColor="Black"  IsPassword="True"  FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+                        
+                       
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="ubicacion.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Picker Title="Seleccione su ciudad" 
+                                    TitleColor="LightSteelBlue" TextColor="Black" x:Name="txtCiudad">
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                            <x:String>San Pedro Sula</x:String>
+                                            <x:String>Tegucigalpa</x:String>
+
+
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                </Picker>
+                            </StackLayout>
+                        </Frame>
+
+
+
+
+
+                        <Label Text="Datos de la tarjeta" TextColor="Black" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Start" FontAttributes="Italic"/>
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="https://cdn4.iconfinder.com/data/icons/interface-80/24/user_circle_interface_person-512.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry Placeholder="Nombre" x:Name="txtNombreT" TextColor="Black"   PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="numeral.jfif" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry Placeholder="Numero de la tarjeta" MaxLength="16" x:Name="txtNumero" Keyboard="Numeric" TextColor="Black"   PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="calendario.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry Placeholder="Fecha de expiración" MaxLength="5" x:Name="txtFechaEx" TextColor="Black"  PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="clave.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry Placeholder="Codigo de seguridad" MaxLength="4" x:Name="txtCodigo" Keyboard="Numeric" TextColor="Black"   PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+                        <Button Text="Continuar" BackgroundColor="HotPink" x:Name="btnContinuar" Clicked="btnContinuar_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,0"  Padding="0,0,0,0" />
+
+                    
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+    
+</ContentPage>
