@@ -1,7 +1,11 @@
-﻿using System;
+﻿using Cinepolis.Clases;
+using Cinepolis.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -16,9 +20,69 @@ namespace Cinepolis
             lblCrearFunc();
             lblOlvidoFunc();
         }
-        private void btnContinuar_Clicked(object sender, EventArgs e)
-        {
 
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            var datos = await App.BaseDatos.listaempleados();
+            int n = datos.Count();
+            if (n== 1)
+            {
+                var pagina = new vMenu.home();
+                await Navigation.PushAsync(pagina);
+            }
+            
+
+        }
+            private async void btnContinuar_Clicked(object sender, EventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(txtCorreo.Text) || String.IsNullOrWhiteSpace(txtContra.Text))
+            {
+                await DisplayAlert("Error", "Es necesario llenar los campos", "OK");
+            }
+            else {
+
+                var direc = new ruta();
+                String direccion = direc.ruta_();
+                direccion = direccion + "Cinepolis/tclientes/logIn.php";
+
+                MultipartFormDataContent parametros = new MultipartFormDataContent();
+                StringContent email = new StringContent(txtCorreo.Text);
+                StringContent pas = new StringContent(txtContra.Text);
+                parametros.Add(email, "email");
+                parametros.Add(pas, "pass");
+
+                using (HttpClient client = new HttpClient())
+                {
+                    var respuesta = await client.PostAsync(direccion, parametros);
+
+                    Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+                    var rs = respuesta.Content.ReadAsStringAsync().Result;
+
+                    
+                    if (rs.Equals("NO")){
+                        await DisplayAlert("Error", "Datos Incorrectos", "Ok");
+                    }
+                    else
+                    {
+
+                        var emple = new constructorLogin
+                        {
+                            nombre = rs,
+                            correo = txtContra.Text
+                        };
+                        var resultado = await App.BaseDatos.EmpleadoGuardar(emple);
+                        if (resultado != 0)
+                        {
+                            var pagina = new vMenu.home();
+                            await Navigation.PushAsync(pagina);
+                        }
+
+                    }
+                  
+                }
+
+            }
         }
 
 

@@ -9,7 +9,7 @@ namespace Cinepolis.Clases
 
         public string ruta_ ()
         {
-            return  "https://cr10.000webhostapp.com/";
+            return "https://uth-proyecto.xyz/";
           }
 
 

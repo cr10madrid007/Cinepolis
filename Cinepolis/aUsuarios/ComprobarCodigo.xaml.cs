@@ -21,7 +21,10 @@ namespace Cinepolis.aUsuarios
             generarCodigo(correo);
         }
 
+        private void btnVerificar_Clicked(object sender, EventArgs e)
+        {
 
+        }
 
         void generarCodigo(String email)
         {

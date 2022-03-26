@@ -9,7 +9,7 @@
                 <StackLayout Padding="0" Margin="15,10">
                     <Label Text="CINEPOLIS" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="Title" />
                     <Label Text="Ingrese su correo Electronico" TextColor="Black" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Start" FontAttributes="Italic"/>
-                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30" x:Name="fCorreo">
                         <StackLayout Orientation="Horizontal">
                             <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
                                 <Image Source="correo.png" Aspect="AspectFill" Margin="0"/>
@@ -17,11 +17,32 @@
 
                             <Entry Placeholder="Correo" Keyboard="Email"  x:Name="txtCorreo" TextColor="Black"   PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
                         </StackLayout>
-
-
-
                     </Frame>
+                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30" x:Name="fCodigo" IsVisible="false">
+                        <StackLayout Orientation="Horizontal">
+                            <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                <Image Source="clave.png" Aspect="AspectFill" Margin="0"/>
+                            </Frame>
+
+                            <Entry Placeholder="Codigo" Keyboard="Numeric"  x:Name="txtCodigo" TextColor="Black"   PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" />
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30" x:Name="fContra" IsVisible="false">
+                        <StackLayout Orientation="Horizontal">
+                            <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                <Image Source="clave.png" Aspect="AspectFill" Margin="0"/>
+                            </Frame>
+
+                            <Entry Placeholder="Nueva contraseña" Keyboard="Numeric"  x:Name="txtContra" TextColor="Black"   PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" />
+                        </StackLayout>
+                    </Frame>
+
                     <Button Text="Continuar" BackgroundColor="HotPink" x:Name="btnContinuar" Clicked="btnContinuar_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,0"  Padding="0,0,0,0" />
+                    <Button Text="Verificar" BackgroundColor="HotPink" x:Name="btnVerificar" Clicked="btnVerificar_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,0"  Padding="0,0,0,0" IsVisible="false"/>
+                    <Button Text="Actualizar Contraseña" BackgroundColor="HotPink" x:Name="btnActualizar" Clicked="btnActualizar_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,0"  Padding="0,0,0,0" IsVisible="false"/>
+
+
+
                 </StackLayout>
             </Frame>
         </StackLayout>

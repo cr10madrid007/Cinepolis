@@ -16,3 +16,5 @@ C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\Cinepol
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\aUsuarios\RegistrarUsuario.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\aUsuarios\verificarCuenta.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\aUsuarios\OlvidoContraseña.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\aUsuarios\ComprobarCodigo.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\home.xaml.g.cs
