@@ -648,3 +648,10 @@ C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\android\as
 C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\android\assets\System.Buffers.dll
 C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\android\assets\System.Memory.dll
 C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\golosinas.png
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\peliculas.png
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\usuario.png
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\historial.png
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\salir.png
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\ubicacionmenu.png
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\android\assets\Newtonsoft.Json.dll

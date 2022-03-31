@@ -15,6 +15,39 @@ namespace Cinepolis.vMenu
         public home()
         {
             InitializeComponent();
+
+
+        }
+
+        private async void slPelicula_Tapped(object sender, EventArgs e)
+        {
+            var pagina = new peliculas();
+            await Navigation.PushAsync(pagina);
+        }
+
+        private void slComida_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void slUbicacion_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void slUsuario_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void slHistorial_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void slSalir_Tapped(object sender, EventArgs e)
+        {
+
         }
     }
 }

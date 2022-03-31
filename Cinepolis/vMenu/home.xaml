@@ -2,11 +2,63 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cinepolis.vMenu.home">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    
+        <Grid BackgroundColor="White">
+
+        <StackLayout Grid.Row="0" Grid.Column="0" Padding="25" BackgroundColor="LightSteelBlue">
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer x:Name="slPelicula" Tapped="slPelicula_Tapped" />
+            </StackLayout.GestureRecognizers>
+            <Image Source="peliculas.png" WidthRequest="150" HeightRequest="150" />
+            <Label Text="Pelicula" FontAttributes="Bold" FontSize="Subtitle" TextColor="Black" HorizontalTextAlignment="Center"/>
         </StackLayout>
-    </ContentPage.Content>
+
+        <StackLayout Grid.Row="0"  Grid.Column="1" Padding="25" BackgroundColor="LightYellow" >
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer x:Name="slComida" Tapped="slComida_Tapped" />
+            </StackLayout.GestureRecognizers>
+            <Image Source="golosinas.png" WidthRequest="150" HeightRequest="150" />
+            <Label Text="Golosinas" FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+            
+        </StackLayout>
+
+        <StackLayout Grid.Row="1"  Grid.Column="0" Padding="25" BackgroundColor="LemonChiffon" >
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer x:Name="slUbicacion" Tapped="slUbicacion_Tapped" />
+            </StackLayout.GestureRecognizers>
+            <Image Source="ubicacion.png" WidthRequest="150" HeightRequest="150" />
+            <Label Text="Ubicacion" FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1"  Grid.Column="1" Padding="25" BackgroundColor="LightCyan" >
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer x:Name="slUsuario" Tapped="slUsuario_Tapped" />
+            </StackLayout.GestureRecognizers>
+            <Image Source="usuario.png" WidthRequest="150" HeightRequest="150" />
+            <Label Text="Usuario" FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2"  Grid.Column="0" Padding="25" BackgroundColor="LightGray" >
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer x:Name="slHistorial" Tapped="slHistorial_Tapped" />
+            </StackLayout.GestureRecognizers>
+            <Image Source="historial.png" WidthRequest="150" HeightRequest="150" />
+            <Label Text="Historial" FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2"  Grid.Column="1" Padding="25" BackgroundColor="LightBlue" >
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer x:Name="slSalir" Tapped="slSalir_Tapped" />
+            </StackLayout.GestureRecognizers>
+            <Image Source="salir.png" WidthRequest="150" HeightRequest="150" />
+            <Label Text="Salir" FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+
+        
+
+
+
+
+
+    </Grid>
 </ContentPage>

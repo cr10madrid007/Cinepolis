@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ep7ECmXbXWWOGcntS7H7021Ao6m/NX+iaHlCWOAclzpEbqIAzj3DGq0EBVMI51/Is+7965geNm6qI8T3exr+NQ==",
+  "dgSpecHash": "Z4wZxO/pFJWO9Xh0mvpFDZ7jvm8scaTAsqjNLVyBIW/Ho1LnwZIwOJVszc1HyfpBlm+nNuovzeI3HtDp0lFpsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\crist\\source\\repos\\Cinepolis\\Cinepolis.Android\\Cinepolis.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\crist\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
@@ -67,7 +68,7 @@
     "C:\\Users\\crist\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.8\\xamarin.androidx.viewpager.1.0.0.8.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
-    "C:\\Users\\crist\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],

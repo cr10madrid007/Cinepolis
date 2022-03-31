@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cinepolis.vMenu.peliculas">
+
+    <ListView  BackgroundColor="White"  x:Name="ListaEmpleados" ItemSelected="ListaEmpleados_ItemSelected" RowHeight="200">
+        <ListView.ItemTemplate >
+            <DataTemplate>
+                <ViewCell>
+                    <Grid BackgroundColor="LightCyan" Padding="10" Margin="0,2,0,2" >
+                        
+                            <StackLayout  Grid.Column="0">
+                                <Image Source="{Binding banner}" HeightRequest="200" WidthRequest="150
+"  />
+                            </StackLayout>
+
+                            <StackLayout  Grid.Column="1">
+
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Nombre: " FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="{Binding nombre}" TextColor="Black" />
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Duración: " FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="{Binding duracion}" TextColor="Black" />
+                                <Label Text="horas"  TextColor="Black"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Clasificacion: " FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="{Binding clasificacion}" TextColor="Black" />
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Genero: " FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="{Binding genero}" TextColor="Black" />
+                            </StackLayout>
+                                
+                            
+                            </StackLayout>
+                        
+                        
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
+
+
+
+
