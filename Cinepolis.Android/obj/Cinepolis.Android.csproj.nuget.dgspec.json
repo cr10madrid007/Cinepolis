@@ -42,9 +42,21 @@
       "frameworks": {
         "monoandroid12.0": {
           "dependencies": {
+            "LibVLCSharp": {
+              "target": "Package",
+              "version": "[3.6.6, )"
+            },
+            "LibVLCSharp.Forms": {
+              "target": "Package",
+              "version": "[3.6.6, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "VideoLAN.LibVLC.Android": {
+              "target": "Package",
+              "version": "[3.2.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -102,6 +114,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "LibVLCSharp": {
+              "target": "Package",
+              "version": "[3.6.6, )"
+            },
+            "LibVLCSharp.Forms": {
+              "target": "Package",
+              "version": "[3.6.6, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -111,6 +131,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "VideoLAN.LibVLC.Android": {
+              "target": "Package",
+              "version": "[3.2.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

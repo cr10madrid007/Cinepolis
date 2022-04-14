@@ -2,6 +2,41 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v12.0": {
+      "LibVLCSharp/3.6.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/LibVLCSharp.Android.AWindow.dll": {},
+          "lib/monoandroid81/LibVLCSharp.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/LibVLCSharp.Android.AWindow.dll": {},
+          "lib/monoandroid81/LibVLCSharp.dll": {}
+        }
+      },
+      "LibVLCSharp.Forms/3.6.6": {
+        "type": "package",
+        "dependencies": {
+          "LibVLCSharp": "3.6.6",
+          "Xamarin.Forms": "3.2.0.871581"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/LibVLCSharp.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/LibVLCSharp.Forms.dll": {}
+        },
+        "resource": {
+          "lib/monoandroid81/fr/LibVLCSharp.Forms.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -111,6 +146,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "VideoLAN.LibVLC.Android/3.2.0.1": {
+        "type": "package",
+        "build": {
+          "build/VideoLAN.LibVLC.Android.targets": {}
         }
       },
       "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -1646,7 +1687,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LibVLCSharp": "3.6.6",
+          "LibVLCSharp.Forms": "3.6.6",
           "Newtonsoft.Json": "13.0.1",
+          "VideoLAN.LibVLC.Android": "3.2.0.1",
           "Xamarin.Essentials": "1.7.1",
           "Xamarin.Forms": "5.0.0.2401",
           "sqlite-net-pcl": "1.8.116"
@@ -1661,6 +1705,78 @@
     }
   },
   "libraries": {
+    "LibVLCSharp/3.6.6": {
+      "sha512": "FVFPaVGcckbva3fEzc9+VNP3zD4KZ4eoiCEkfBe5+/BgJLDbnV9Nk9TlwqqrUxlelGL2q4gXGhXAm+gU0yDFYQ==",
+      "type": "package",
+      "path": "libvlcsharp/3.6.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/monoandroid81/LibVLCSharp.Android.AWindow.dll",
+        "lib/monoandroid81/LibVLCSharp.dll",
+        "lib/monoandroid81/LibVLCSharp.xml",
+        "lib/net40/LibVLCSharp.dll",
+        "lib/net40/LibVLCSharp.xml",
+        "lib/net471/LibVLCSharp.dll",
+        "lib/net471/LibVLCSharp.xml",
+        "lib/net6.0-android31.0/LibVLCSharp.Android.AWindow.dll",
+        "lib/net6.0-android31.0/LibVLCSharp.dll",
+        "lib/net6.0-android31.0/LibVLCSharp.xml",
+        "lib/net6.0-ios15.2/LibVLCSharp.dll",
+        "lib/net6.0-ios15.2/LibVLCSharp.xml",
+        "lib/net6.0-macos12.1/LibVLCSharp.dll",
+        "lib/net6.0-macos12.1/LibVLCSharp.xml",
+        "lib/net6.0-tvos15.2/LibVLCSharp.dll",
+        "lib/net6.0-tvos15.2/LibVLCSharp.xml",
+        "lib/net6.0-windows7.0/LibVLCSharp.dll",
+        "lib/net6.0-windows7.0/LibVLCSharp.xml",
+        "lib/net6.0/LibVLCSharp.dll",
+        "lib/net6.0/LibVLCSharp.xml",
+        "lib/netstandard1.1/LibVLCSharp.dll",
+        "lib/netstandard1.1/LibVLCSharp.xml",
+        "lib/netstandard2.0/LibVLCSharp.dll",
+        "lib/netstandard2.0/LibVLCSharp.xml",
+        "lib/netstandard2.1/LibVLCSharp.dll",
+        "lib/netstandard2.1/LibVLCSharp.xml",
+        "lib/uap10.0.18362/LibVLCSharp.dll",
+        "lib/uap10.0.18362/LibVLCSharp.pri",
+        "lib/uap10.0.18362/LibVLCSharp.xml",
+        "lib/uap10.0.18362/LibVLCSharp/LibVLCSharp.xr.xml",
+        "lib/xamarinios10/LibVLCSharp.dll",
+        "lib/xamarinios10/LibVLCSharp.xml",
+        "lib/xamarinmac20/LibVLCSharp.dll",
+        "lib/xamarinmac20/LibVLCSharp.xml",
+        "libvlcsharp.3.6.6.nupkg.sha512",
+        "libvlcsharp.nuspec"
+      ]
+    },
+    "LibVLCSharp.Forms/3.6.6": {
+      "sha512": "oHVBr4sVn4jbE9FAoXLNqNGQePdAkb96HPnz/Lfs9RvR53tYjn86Cthg7ZiwalEgNIgrC2leL+DZWzsAY5eRlA==",
+      "type": "package",
+      "path": "libvlcsharp.forms/3.6.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/monoandroid81/LibVLCSharp.Forms.dll",
+        "lib/monoandroid81/LibVLCSharp.Forms.xml",
+        "lib/monoandroid81/fr/LibVLCSharp.Forms.resources.dll",
+        "lib/netstandard2.0/LibVLCSharp.Forms.dll",
+        "lib/netstandard2.0/LibVLCSharp.Forms.xml",
+        "lib/netstandard2.0/fr/LibVLCSharp.Forms.resources.dll",
+        "lib/xamarinios10/LibVLCSharp.Forms.dll",
+        "lib/xamarinios10/LibVLCSharp.Forms.xml",
+        "lib/xamarinios10/fr/LibVLCSharp.Forms.resources.dll",
+        "lib/xamarinmac20/LibVLCSharp.Forms.dll",
+        "lib/xamarinmac20/LibVLCSharp.Forms.xml",
+        "lib/xamarinmac20/fr/LibVLCSharp.Forms.resources.dll",
+        "libvlcsharp.forms.3.6.6.nupkg.sha512",
+        "libvlcsharp.forms.nuspec"
+      ]
+    },
     "Newtonsoft.Json/13.0.1": {
       "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
@@ -1874,6 +1990,27 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "VideoLAN.LibVLC.Android/3.2.0.1": {
+      "sha512": "oM8oRx7Jtl8ST+c4tXyZ5H7oBMx8//AtFWZt/qekE5hgGYF0gJ6QZYE7+oaCPwtn6IzcClgCm8731/akFID2zA==",
+      "type": "package",
+      "path": "videolan.libvlc.android/3.2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/VideoLAN.LibVLC.Android.targets",
+        "build/android-armv7/libc++_shared.so",
+        "build/android-armv7/libvlc.so",
+        "build/android-armv8/libc++_shared.so",
+        "build/android-armv8/libvlc.so",
+        "build/android-x86/libc++_shared.so",
+        "build/android-x86/libvlc.so",
+        "build/android-x86_64/libc++_shared.so",
+        "build/android-x86_64/libvlc.so",
+        "icon.png",
+        "videolan.libvlc.android.3.2.0.1.nupkg.sha512",
+        "videolan.libvlc.android.nuspec"
       ]
     },
     "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -3439,7 +3576,10 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v12.0": [
       "Cinepolis >= 1.0.0",
+      "LibVLCSharp >= 3.6.6",
+      "LibVLCSharp.Forms >= 3.6.6",
       "Newtonsoft.Json >= 13.0.1",
+      "VideoLAN.LibVLC.Android >= 3.2.0.1",
       "Xamarin.Essentials >= 1.7.1",
       "Xamarin.Forms >= 5.0.0.2401",
       "sqlite-net-pcl >= 1.8.116"
@@ -3487,9 +3627,21 @@
     "frameworks": {
       "monoandroid12.0": {
         "dependencies": {
+          "LibVLCSharp": {
+            "target": "Package",
+            "version": "[3.6.6, )"
+          },
+          "LibVLCSharp.Forms": {
+            "target": "Package",
+            "version": "[3.6.6, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "VideoLAN.LibVLC.Android": {
+            "target": "Package",
+            "version": "[3.2.0.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

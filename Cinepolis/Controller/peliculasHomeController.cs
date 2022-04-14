@@ -26,5 +26,24 @@ namespace Cinepolis.Controller
             }
             return listapaises;
         }
+
+
+
+        public async static Task<List<ApiPeliculasHome.ph>> ObtenerPeliculasHomeSPS()
+        {
+            var direc = new ruta();
+            String direccion = direc.ruta_();
+            List<ApiPeliculasHome.ph> listapaises = new List<ApiPeliculasHome.ph>();
+            using (HttpClient client = new HttpClient())
+            {
+                var response = await client.GetAsync(direccion + "Cinepolis/tclientes/vistas/vPeliculasHomeSPS.php");
+                if (response.IsSuccessStatusCode)
+                {
+                    var contenido = response.Content.ReadAsStringAsync().Result;
+                    listapaises = JsonConvert.DeserializeObject<List<ApiPeliculasHome.ph>>(contenido);
+                }
+            }
+            return listapaises;
+        }
     }
 }

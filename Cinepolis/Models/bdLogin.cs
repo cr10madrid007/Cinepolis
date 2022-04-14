@@ -31,10 +31,17 @@ namespace Cinepolis.Models
         }
 
         // buscar un empleado especifico por el codigo
+        /*
         public Task<constructorLogin> ObtenerEmpleado(Int32 pcodigo)
         {
             return db.Table<constructorLogin>().Where(i => i.codigo == pcodigo).FirstOrDefaultAsync();
         }
+        */
+        public Task<constructorLogin> ObtenerCliente()
+        {
+            return db.Table<constructorLogin>().Where(i => i.correo != "").FirstOrDefaultAsync();
+        }
+
 
 
         // Guardar o actualizar empleado
@@ -55,6 +62,8 @@ namespace Cinepolis.Models
         {
             return db.DeleteAsync(emple);
         }
+
+        
 
     }
 }

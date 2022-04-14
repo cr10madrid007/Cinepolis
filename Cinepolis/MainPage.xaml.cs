@@ -30,6 +30,9 @@ namespace Cinepolis
             {
                 var pagina = new vMenu.home();
                 await Navigation.PushAsync(pagina);
+
+                
+               
             }
             
 
@@ -69,7 +72,7 @@ namespace Cinepolis
                         var emple = new constructorLogin
                         {
                             nombre = rs,
-                            correo = txtContra.Text
+                            correo = txtCorreo.Text
                         };
                         var resultado = await App.BaseDatos.EmpleadoGuardar(emple);
                         if (resultado != 0)

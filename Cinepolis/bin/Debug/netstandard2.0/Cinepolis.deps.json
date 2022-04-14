@@ -9,14 +9,45 @@
     ".NETStandard,Version=v2.0/": {
       "Cinepolis/1.0.0": {
         "dependencies": {
+          "LibVLCSharp": "3.6.6",
+          "LibVLCSharp.Forms": "3.6.6",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
+          "VideoLAN.LibVLC.Android": "3.2.0.1",
           "Xamarin.Essentials": "1.7.1",
           "Xamarin.Forms": "5.0.0.2401",
           "sqlite-net-pcl": "1.8.116"
         },
         "runtime": {
           "Cinepolis.dll": {}
+        }
+      },
+      "LibVLCSharp/3.6.6": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LibVLCSharp.dll": {
+            "assemblyVersion": "3.6.6.0",
+            "fileVersion": "3.6.6.0"
+          }
+        }
+      },
+      "LibVLCSharp.Forms/3.6.6": {
+        "dependencies": {
+          "LibVLCSharp": "3.6.6",
+          "Xamarin.Forms": "5.0.0.2401"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LibVLCSharp.Forms.dll": {
+            "assemblyVersion": "3.6.6.0",
+            "fileVersion": "3.6.6.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/fr/LibVLCSharp.Forms.resources.dll": {
+            "locale": "fr"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -59,7 +90,7 @@
       },
       "SQLitePCLRaw.core/2.0.4": {
         "dependencies": {
-          "System.Memory": "4.5.3"
+          "System.Memory": "4.5.4"
         },
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
@@ -80,24 +111,24 @@
           }
         }
       },
-      "System.Buffers/4.4.0": {
+      "System.Buffers/4.5.1": {
         "runtime": {
           "lib/netstandard2.0/System.Buffers.dll": {
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.25519.3"
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.28619.1"
           }
         }
       },
-      "System.Memory/4.5.3": {
+      "System.Memory/4.5.4": {
         "dependencies": {
-          "System.Buffers": "4.4.0",
+          "System.Buffers": "4.5.1",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "runtime": {
           "lib/netstandard2.0/System.Memory.dll": {
             "assemblyVersion": "4.0.1.1",
-            "fileVersion": "4.6.27617.2"
+            "fileVersion": "4.6.28619.1"
           }
         }
       },
@@ -109,14 +140,15 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "assemblyVersion": "4.0.4.1",
-            "fileVersion": "4.6.26919.2"
+            "fileVersion": "4.6.28619.1"
           }
         }
       },
+      "VideoLAN.LibVLC.Android/3.2.0.1": {},
       "Xamarin.Essentials/1.7.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -151,6 +183,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "LibVLCSharp/3.6.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FVFPaVGcckbva3fEzc9+VNP3zD4KZ4eoiCEkfBe5+/BgJLDbnV9Nk9TlwqqrUxlelGL2q4gXGhXAm+gU0yDFYQ==",
+      "path": "libvlcsharp/3.6.6",
+      "hashPath": "libvlcsharp.3.6.6.nupkg.sha512"
+    },
+    "LibVLCSharp.Forms/3.6.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oHVBr4sVn4jbE9FAoXLNqNGQePdAkb96HPnz/Lfs9RvR53tYjn86Cthg7ZiwalEgNIgrC2leL+DZWzsAY5eRlA==",
+      "path": "libvlcsharp.forms/3.6.6",
+      "hashPath": "libvlcsharp.forms.3.6.6.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -208,19 +254,19 @@
       "path": "sqlitepclraw.provider.e_sqlite3/2.0.4",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512"
     },
-    "System.Buffers/4.4.0": {
+    "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
-      "path": "system.buffers/4.4.0",
-      "hashPath": "system.buffers.4.4.0.nupkg.sha512"
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
     },
-    "System.Memory/4.5.3": {
+    "System.Memory/4.5.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
-      "path": "system.memory/4.5.3",
-      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
@@ -229,12 +275,19 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+    "System.Runtime.CompilerServices.Unsafe/4.5.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.2",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+      "sha512": "sha512-3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.3",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512"
+    },
+    "VideoLAN.LibVLC.Android/3.2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oM8oRx7Jtl8ST+c4tXyZ5H7oBMx8//AtFWZt/qekE5hgGYF0gJ6QZYE7+oaCPwtn6IzcClgCm8731/akFID2zA==",
+      "path": "videolan.libvlc.android/3.2.0.1",
+      "hashPath": "videolan.libvlc.android.3.2.0.1.nupkg.sha512"
     },
     "Xamarin.Essentials/1.7.1": {
       "type": "package",
