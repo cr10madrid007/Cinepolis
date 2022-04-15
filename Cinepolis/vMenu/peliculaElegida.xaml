@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cinepolis.vMenu.peliculaElegida" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout BackgroundColor="White">
+            <Image x:Name="imgBanner" HorizontalOptions="FillAndExpand" HeightRequest="400" />
+            <Label x:Name="lblTitulo" FontSize="Title" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" />
+            <Label x:Name="lblSynopsis" Margin="5,0,5,0" TextColor="Black"/>
+
+            <StackLayout Orientation="Horizontal" Margin="5,0,5,0">
+                <Label Text="Duración: " FontAttributes="Bold" TextColor="Black"/>
+                <Label x:Name="lblDuración" TextColor="Black" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="5,0,5,0">
+                <Label Text="Clasificación: " FontAttributes="Bold" TextColor="Black"/>
+                <Label x:Name="lblClasificacion" TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="5,0,5,0">
+                <Label Text="Año: " FontAttributes="Bold" TextColor="Black"/>
+                <Label x:Name="lblAño" TextColor="Black" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="5,0,5,0">
+                <Label Text="Genero: " FontAttributes="Bold" TextColor="Black" />
+                <Label x:Name="lblGenero" TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="5,0,5,0">
+                <Label Text="Director: " FontAttributes="Bold"  TextColor="Black"/>
+                <Label x:Name="lblDirector" TextColor="Black"/>
+            </StackLayout>
+                <Button Grid.Column="0" Text="Trailer" BackgroundColor="HotPink" x:Name="btnVideo"  Clicked="btnVideo_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>
+                <Grid>
+                <Button Grid.Column="0" Text="Atras" BackgroundColor="HotPink" x:Name="btnAtras"  Clicked="btnAtras_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>
+                <Button Grid.Column="1" Text="Continuar" BackgroundColor="HotPink" x:Name="btnContinuar" Clicked="btnContinuar_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>
+            </Grid>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

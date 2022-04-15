@@ -19,5 +19,7 @@ C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\aUsuari
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\aUsuarios\ComprobarCodigo.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\home.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\peliculas.xaml.g.cs
-C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\peliculaSeleccionada.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\peliculaElegida.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\reproductor.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\horarios.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\silla.xaml.g.cs

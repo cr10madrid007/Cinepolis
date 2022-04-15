@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
+             x:Class="Cinepolis.vMenu.silla" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Selecciona tus asientos" FontSize="Title" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,15,0,0"/>
+            <Label Text="Asientos seleccionados: 0" HorizontalTextAlignment="End" TextColor="Black" Margin="0,0,15,0" x:Name="lblCantidad"/>
+
+            <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="White" >
+                
+                    <StackLayout Grid.Row="0" Grid.Column="0">
+                        <Button   x:Name="btn1" Text="1" Clicked="btn1_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="1">
+                        <Button   x:Name="btn2" Text="2" Clicked="btn2_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="2">
+                        <Button x:Name="btn3" Text="3" Clicked="btn3_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="3" >
+                        <Button  x:Name="btn4" Text="4" Clicked="btn4_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="4">
+                        <Button   x:Name="btn5" Text="5" Clicked="btn5_Clicked"/>
+                    </StackLayout>
+               
+                    <StackLayout Grid.Row="1" Grid.Column="0">
+                        <Button   x:Name="btn6" Text="6" Clicked="btn6_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="1">
+                        <Button   x:Name="btn7" Text="7" Clicked="btn7_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="2">
+                        <Button   x:Name="btn8" Text="8" Clicked="btn8_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="3">
+                        <Button   x:Name="btn9" Text="9" Clicked="btn9_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="4">
+                        <Button   x:Name="btn10" Text="10" Clicked="btn10_Clicked"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2" Grid.Column="0">
+                        <Button   x:Name="btn11" Text="11" Clicked="btn11_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="1">
+                        <Button   x:Name="btn12" Text="12" Clicked="btn12_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="2">
+                        <Button   x:Name="btn13" Text="13" Clicked="btn13_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="3">
+                        <Button   x:Name="btn14" Text="14" Clicked="btn14_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="4">
+                        <Button   x:Name="btn15" Text="15" Clicked="btn15_Clicked"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="3" Grid.Column="0">
+                        <Button   x:Name="btn16" Text="16" Clicked="btn16_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="3" Grid.Column="1">
+                        <Button   x:Name="btn17" Text="17" Clicked="btn17_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="3" Grid.Column="2">
+                        <Button   x:Name="btn18" Text="18" Clicked="btn18_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="3" Grid.Column="3">
+                        <Button   x:Name="btn19" Text="19" Clicked="btn19_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="3" Grid.Column="4">
+                        <Button   x:Name="btn20" Text="20" Clicked="btn20_Clicked"/>
+                    </StackLayout>
+
+
+
+
+                    <StackLayout Grid.Row="4" Grid.Column="0">
+                        <Button   x:Name="btn21" Text="21" Clicked="btn21_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="4" Grid.Column="1">
+                        <Button   x:Name="btn22" Text="22" Clicked="btn22_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="4" Grid.Column="2">
+                        <Button x:Name="btn23" Text="23" Clicked="btn23_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="4" Grid.Column="3" >
+                        <Button  x:Name="btn24" Text="24" Clicked="btn24_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="4" Grid.Column="4">
+                        <Button   x:Name="btn25" Text="25" Clicked="btn25_Clicked"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="5" Grid.Column="0">
+                        <Button   x:Name="btn26" Text="26" Clicked="btn26_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="5" Grid.Column="1">
+                        <Button   x:Name="btn27" Text="27" Clicked="btn27_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="5" Grid.Column="2">
+                        <Button   x:Name="btn28" Text="28" Clicked="btn28_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="5" Grid.Column="3">
+                        <Button   x:Name="btn29" Text="29" Clicked="btn29_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="5" Grid.Column="4">
+                        <Button   x:Name="btn30" Text="30" Clicked="btn30_Clicked"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="6" Grid.Column="0">
+                        <Button   x:Name="btn31" Text="31" Clicked="btn31_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="6" Grid.Column="1">
+                        <Button   x:Name="btn32" Text="32" Clicked="btn32_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="6" Grid.Column="2">
+                        <Button   x:Name="btn33" Text="33" Clicked="btn33_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="6" Grid.Column="3">
+                        <Button   x:Name="btn34" Text="34" Clicked="btn34_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="6" Grid.Column="4">
+                        <Button   x:Name="btn35" Text="35" Clicked="btn35_Clicked"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="7" Grid.Column="0">
+                        <Button   x:Name="btn36" Text="36" Clicked="btn36_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="7" Grid.Column="1">
+                        <Button   x:Name="btn37" Text="37" Clicked="btn37_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="7" Grid.Column="2">
+                        <Button   x:Name="btn38" Text="38" Clicked="btn38_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="7" Grid.Column="3">
+                        <Button   x:Name="btn39" Text="39" Clicked="btn39_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="7" Grid.Column="4">
+                        <Button   x:Name="btn40" Text="40" Clicked="btn40_Clicked"/>
+                    </StackLayout>
+                
+                
+                
+
+            </Grid>
+
+            <Grid>
+                <Button Grid.Column="0" Text="Atras" BackgroundColor="HotPink" x:Name="btnAtras"  Clicked="btnAtras_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>
+                <Button Grid.Column="1" Text="Continuar" BackgroundColor="HotPink" x:Name="btnContinuar" Clicked="btnContinuar_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

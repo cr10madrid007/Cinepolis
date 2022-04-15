@@ -225,7 +225,19 @@
           "build/VideoLAN.LibVLC.Android.targets": {}
         }
       },
-      "Xamarin.Essentials/1.7.1": {
+      "Xam.Forms.VideoPlayer/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.4.0.991265"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xam.Forms.VideoPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xam.Forms.VideoPlayer.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.7.2": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -740,10 +752,31 @@
         "videolan.libvlc.android.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.7.1": {
-      "sha512": "u7pUgvHJKTYo5ATiwRZvYviq2O0AQXIqxdna+sMxqidfWpbD7FBgFOLNAZzWKSll/AQBPeDrqLAWZNLq+ztpmQ==",
+    "Xam.Forms.VideoPlayer/1.0.8": {
+      "sha512": "hd38+Bwj5l8Q+YKLATqrWfdhDNCATbqw2qKav/8++49DgNcLQkz9yxQwH6x/BawArfu2uG6Q1N/XC7FMMSuRBA==",
       "type": "package",
-      "path": "xamarin.essentials/1.7.1",
+      "path": "xam.forms.videoplayer/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid81/Xam.Forms.VideoPlayer.Android.dll",
+        "lib/MonoAndroid81/Xam.Forms.VideoPlayer.dll",
+        "lib/MonoAndroid81/ru/Xam.Forms.VideoPlayer.Android.resources.dll",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.UWP.dll",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.UWP.pri",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.UWP/Xam.Forms.VideoPlayer.UWP.xr.xml",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.dll",
+        "lib/Xamarin.iOS10/Xam.Forms.VideoPlayer.dll",
+        "lib/Xamarin.iOS10/Xam.Forms.VideoPlayer.iOS.dll",
+        "lib/netstandard2.0/Xam.Forms.VideoPlayer.dll",
+        "xam.forms.videoplayer.1.0.8.nupkg.sha512",
+        "xam.forms.videoplayer.nuspec"
+      ]
+    },
+    "Xamarin.Essentials/1.7.2": {
+      "sha512": "3r2QA/54YZGw6o+cBmIQdvs9nkT1SNHHvFGl1jg2bJ/INmsPdSU4ddrwhIw6zSWSIMRbemKvXEVov1KwjRk6PQ==",
+      "type": "package",
+      "path": "xamarin.essentials/1.7.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -778,7 +811,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.7.1.nupkg.sha512",
+        "xamarin.essentials.1.7.2.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -1006,7 +1039,8 @@
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 13.0.1",
       "VideoLAN.LibVLC.Android >= 3.2.0.1",
-      "Xamarin.Essentials >= 1.7.1",
+      "Xam.Forms.VideoPlayer >= 1.0.8",
+      "Xamarin.Essentials >= 1.7.2",
       "Xamarin.Forms >= 5.0.0.2401",
       "sqlite-net-pcl >= 1.8.116"
     ]
@@ -1077,9 +1111,13 @@
             "target": "Package",
             "version": "[3.2.0.1, )"
           },
+          "Xam.Forms.VideoPlayer": {
+            "target": "Package",
+            "version": "[1.0.8, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.7.1, )"
+            "version": "[1.7.2, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

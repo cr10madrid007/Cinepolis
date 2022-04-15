@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rZqWBZFV2L3UDSPPY9Nsb9bJzwrH/d2VXmskp9BGzewKzsOAu4dTt6J5AT6EByqD6z5GYqfU3fR8IPn7G2uESQ==",
+  "dgSpecHash": "11AQnPx2drP0lHjqOzZVnV8GR46xTIgga2cAgZOyAyZckIFrWKjaO6+0STN79MIseQX94fImdOMWJpBpspbQUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\crist\\source\\repos\\Cinepolis\\Cinepolis\\Cinepolis.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,8 @@
     "C:\\Users\\crist\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\videolan.libvlc.android\\3.2.0.1\\videolan.libvlc.android.3.2.0.1.nupkg.sha512",
-    "C:\\Users\\crist\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\xam.forms.videoplayer\\1.0.8\\xam.forms.videoplayer.1.0.8.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\xamarin.essentials\\1.7.2\\xamarin.essentials.1.7.2.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512"
   ],
   "logs": []

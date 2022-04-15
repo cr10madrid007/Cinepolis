@@ -16,7 +16,7 @@ namespace Cinepolis.aUsuarios
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class OlvidoContraseña : ContentPage
     {
-        String correo = "", codigo = "", a="";
+        String correo = "",  a="";
         public OlvidoContraseña()
         {
             InitializeComponent();

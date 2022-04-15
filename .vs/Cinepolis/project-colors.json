@@ -5,7 +5,12 @@
       "ProjectGuid": "4003113d-f8a2-429e-aa5c-99db1a77f12c",
       "DisplayName": "Cinepolis",
       "ColorIndex": 0
+    },
+    "9ce140e1-f370-47be-82c9-7d7f7b894bbd": {
+      "ProjectGuid": "9ce140e1-f370-47be-82c9-7d7f7b894bbd",
+      "DisplayName": "Cinepolis.Android",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

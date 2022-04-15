@@ -1929,6 +1929,1929 @@ namespace Cinepolis.Droid
 			global::LibVLCSharp.Forms.Resource.Styleable.View_paddingEnd = global::Cinepolis.Droid.Resource.Styleable.View_paddingEnd;
 			global::LibVLCSharp.Forms.Resource.Styleable.View_paddingStart = global::Cinepolis.Droid.Resource.Styleable.View_paddingStart;
 			global::LibVLCSharp.Forms.Resource.Styleable.View_theme = global::Cinepolis.Droid.Resource.Styleable.View_theme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_fade_in = global::Cinepolis.Droid.Resource.Animation.abc_fade_in;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_fade_out = global::Cinepolis.Droid.Resource.Animation.abc_fade_out;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Cinepolis.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_popup_enter = global::Cinepolis.Droid.Resource.Animation.abc_popup_enter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_popup_exit = global::Cinepolis.Droid.Resource.Animation.abc_popup_exit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Cinepolis.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_in_bottom = global::Cinepolis.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_in_top = global::Cinepolis.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_out_bottom = global::Cinepolis.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_out_top = global::Cinepolis.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_bottom_sheet_slide_in = global::Cinepolis.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_bottom_sheet_slide_out = global::Cinepolis.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_snackbar_in = global::Cinepolis.Droid.Resource.Animation.design_snackbar_in;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_snackbar_out = global::Cinepolis.Droid.Resource.Animation.design_snackbar_out;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.EnterFromLeft = global::Cinepolis.Droid.Resource.Animation.EnterFromLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.EnterFromRight = global::Cinepolis.Droid.Resource.Animation.EnterFromRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.ExitToLeft = global::Cinepolis.Droid.Resource.Animation.ExitToLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.ExitToRight = global::Cinepolis.Droid.Resource.Animation.ExitToRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animator.design_appbar_state_list_animator = global::Cinepolis.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarDivider = global::Cinepolis.Droid.Resource.Attribute.actionBarDivider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarItemBackground = global::Cinepolis.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarPopupTheme = global::Cinepolis.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarSize = global::Cinepolis.Droid.Resource.Attribute.actionBarSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarSplitStyle = global::Cinepolis.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarStyle = global::Cinepolis.Droid.Resource.Attribute.actionBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTabBarStyle = global::Cinepolis.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTabStyle = global::Cinepolis.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTabTextStyle = global::Cinepolis.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTheme = global::Cinepolis.Droid.Resource.Attribute.actionBarTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarWidgetTheme = global::Cinepolis.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionButtonStyle = global::Cinepolis.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionDropDownStyle = global::Cinepolis.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionLayout = global::Cinepolis.Droid.Resource.Attribute.actionLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionMenuTextAppearance = global::Cinepolis.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionMenuTextColor = global::Cinepolis.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeBackground = global::Cinepolis.Droid.Resource.Attribute.actionModeBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCloseButtonStyle = global::Cinepolis.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCloseDrawable = global::Cinepolis.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCopyDrawable = global::Cinepolis.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCutDrawable = global::Cinepolis.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeFindDrawable = global::Cinepolis.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModePasteDrawable = global::Cinepolis.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModePopupWindowStyle = global::Cinepolis.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeSelectAllDrawable = global::Cinepolis.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeShareDrawable = global::Cinepolis.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeSplitBackground = global::Cinepolis.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeStyle = global::Cinepolis.Droid.Resource.Attribute.actionModeStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeWebSearchDrawable = global::Cinepolis.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionOverflowButtonStyle = global::Cinepolis.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionOverflowMenuStyle = global::Cinepolis.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionProviderClass = global::Cinepolis.Droid.Resource.Attribute.actionProviderClass;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionViewClass = global::Cinepolis.Droid.Resource.Attribute.actionViewClass;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.activityChooserViewStyle = global::Cinepolis.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::Cinepolis.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogCenterButtons = global::Cinepolis.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogStyle = global::Cinepolis.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogTheme = global::Cinepolis.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.allowStacking = global::Cinepolis.Droid.Resource.Attribute.allowStacking;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alpha = global::Cinepolis.Droid.Resource.Attribute.alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alphabeticModifiers = global::Cinepolis.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.arrowHeadLength = global::Cinepolis.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.arrowShaftLength = global::Cinepolis.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoCompleteTextViewStyle = global::Cinepolis.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeMaxTextSize = global::Cinepolis.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeMinTextSize = global::Cinepolis.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizePresetSizes = global::Cinepolis.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeStepGranularity = global::Cinepolis.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeTextType = global::Cinepolis.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.background = global::Cinepolis.Droid.Resource.Attribute.background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundSplit = global::Cinepolis.Droid.Resource.Attribute.backgroundSplit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundStacked = global::Cinepolis.Droid.Resource.Attribute.backgroundStacked;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundTint = global::Cinepolis.Droid.Resource.Attribute.backgroundTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundTintMode = global::Cinepolis.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.barLength = global::Cinepolis.Droid.Resource.Attribute.barLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_autoHide = global::Cinepolis.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_hideable = global::Cinepolis.Droid.Resource.Attribute.behavior_hideable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_overlapTop = global::Cinepolis.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_peekHeight = global::Cinepolis.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_skipCollapsed = global::Cinepolis.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.borderWidth = global::Cinepolis.Droid.Resource.Attribute.borderWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.borderlessButtonStyle = global::Cinepolis.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.bottomSheetDialogTheme = global::Cinepolis.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.bottomSheetStyle = global::Cinepolis.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarButtonStyle = global::Cinepolis.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::Cinepolis.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::Cinepolis.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::Cinepolis.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarStyle = global::Cinepolis.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonGravity = global::Cinepolis.Droid.Resource.Attribute.buttonGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonPanelSideLayout = global::Cinepolis.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonStyle = global::Cinepolis.Droid.Resource.Attribute.buttonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonStyleSmall = global::Cinepolis.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonTint = global::Cinepolis.Droid.Resource.Attribute.buttonTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonTintMode = global::Cinepolis.Droid.Resource.Attribute.buttonTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardBackgroundColor = global::Cinepolis.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardCornerRadius = global::Cinepolis.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardElevation = global::Cinepolis.Droid.Resource.Attribute.cardElevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardMaxElevation = global::Cinepolis.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardPreventCornerOverlap = global::Cinepolis.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardUseCompatPadding = global::Cinepolis.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.checkboxStyle = global::Cinepolis.Droid.Resource.Attribute.checkboxStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.checkedTextViewStyle = global::Cinepolis.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.closeIcon = global::Cinepolis.Droid.Resource.Attribute.closeIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.closeItemLayout = global::Cinepolis.Droid.Resource.Attribute.closeItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapseContentDescription = global::Cinepolis.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapseIcon = global::Cinepolis.Droid.Resource.Attribute.collapseIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapsedTitleGravity = global::Cinepolis.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapsedTitleTextAppearance = global::Cinepolis.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.color = global::Cinepolis.Droid.Resource.Attribute.color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorAccent = global::Cinepolis.Droid.Resource.Attribute.colorAccent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorBackgroundFloating = global::Cinepolis.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorButtonNormal = global::Cinepolis.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorControlActivated = global::Cinepolis.Droid.Resource.Attribute.colorControlActivated;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorControlHighlight = global::Cinepolis.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorControlNormal = global::Cinepolis.Droid.Resource.Attribute.colorControlNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorError = global::Cinepolis.Droid.Resource.Attribute.colorError;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorPrimary = global::Cinepolis.Droid.Resource.Attribute.colorPrimary;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorPrimaryDark = global::Cinepolis.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorSwitchThumbNormal = global::Cinepolis.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.commitIcon = global::Cinepolis.Droid.Resource.Attribute.commitIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentDescription = global::Cinepolis.Droid.Resource.Attribute.contentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetEnd = global::Cinepolis.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetEndWithActions = global::Cinepolis.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetLeft = global::Cinepolis.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetRight = global::Cinepolis.Droid.Resource.Attribute.contentInsetRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetStart = global::Cinepolis.Droid.Resource.Attribute.contentInsetStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetStartWithNavigation = global::Cinepolis.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPadding = global::Cinepolis.Droid.Resource.Attribute.contentPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingBottom = global::Cinepolis.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingLeft = global::Cinepolis.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingRight = global::Cinepolis.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingTop = global::Cinepolis.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentScrim = global::Cinepolis.Droid.Resource.Attribute.contentScrim;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.controlBackground = global::Cinepolis.Droid.Resource.Attribute.controlBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterEnabled = global::Cinepolis.Droid.Resource.Attribute.counterEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterMaxLength = global::Cinepolis.Droid.Resource.Attribute.counterMaxLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterOverflowTextAppearance = global::Cinepolis.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterTextAppearance = global::Cinepolis.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.customNavigationLayout = global::Cinepolis.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.defaultQueryHint = global::Cinepolis.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dialogPreferredPadding = global::Cinepolis.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dialogTheme = global::Cinepolis.Droid.Resource.Attribute.dialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.displayOptions = global::Cinepolis.Droid.Resource.Attribute.displayOptions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.divider = global::Cinepolis.Droid.Resource.Attribute.divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dividerHorizontal = global::Cinepolis.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dividerPadding = global::Cinepolis.Droid.Resource.Attribute.dividerPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dividerVertical = global::Cinepolis.Droid.Resource.Attribute.dividerVertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.drawableSize = global::Cinepolis.Droid.Resource.Attribute.drawableSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.drawerArrowStyle = global::Cinepolis.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dropDownListViewStyle = global::Cinepolis.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::Cinepolis.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.editTextBackground = global::Cinepolis.Droid.Resource.Attribute.editTextBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.editTextColor = global::Cinepolis.Droid.Resource.Attribute.editTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.editTextStyle = global::Cinepolis.Droid.Resource.Attribute.editTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.elevation = global::Cinepolis.Droid.Resource.Attribute.elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.errorEnabled = global::Cinepolis.Droid.Resource.Attribute.errorEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.errorTextAppearance = global::Cinepolis.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Cinepolis.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expanded = global::Cinepolis.Droid.Resource.Attribute.expanded;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleGravity = global::Cinepolis.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMargin = global::Cinepolis.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginBottom = global::Cinepolis.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginEnd = global::Cinepolis.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginStart = global::Cinepolis.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginTop = global::Cinepolis.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleTextAppearance = global::Cinepolis.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fabSize = global::Cinepolis.Droid.Resource.Attribute.fabSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollEnabled = global::Cinepolis.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Cinepolis.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Cinepolis.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Cinepolis.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Cinepolis.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.font = global::Cinepolis.Droid.Resource.Attribute.font;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontFamily = global::Cinepolis.Droid.Resource.Attribute.fontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderAuthority = global::Cinepolis.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderCerts = global::Cinepolis.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderFetchStrategy = global::Cinepolis.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderFetchTimeout = global::Cinepolis.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderPackage = global::Cinepolis.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderQuery = global::Cinepolis.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontStyle = global::Cinepolis.Droid.Resource.Attribute.fontStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontWeight = global::Cinepolis.Droid.Resource.Attribute.fontWeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.foregroundInsidePadding = global::Cinepolis.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.gapBetweenBars = global::Cinepolis.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.goIcon = global::Cinepolis.Droid.Resource.Attribute.goIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.headerLayout = global::Cinepolis.Droid.Resource.Attribute.headerLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.height = global::Cinepolis.Droid.Resource.Attribute.height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hideOnContentScroll = global::Cinepolis.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hintAnimationEnabled = global::Cinepolis.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hintEnabled = global::Cinepolis.Droid.Resource.Attribute.hintEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hintTextAppearance = global::Cinepolis.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.homeAsUpIndicator = global::Cinepolis.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.homeLayout = global::Cinepolis.Droid.Resource.Attribute.homeLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.icon = global::Cinepolis.Droid.Resource.Attribute.icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.iconTint = global::Cinepolis.Droid.Resource.Attribute.iconTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.iconTintMode = global::Cinepolis.Droid.Resource.Attribute.iconTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.iconifiedByDefault = global::Cinepolis.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.imageButtonStyle = global::Cinepolis.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.indeterminateProgressStyle = global::Cinepolis.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.initialActivityCount = global::Cinepolis.Droid.Resource.Attribute.initialActivityCount;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.insetForeground = global::Cinepolis.Droid.Resource.Attribute.insetForeground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.isLightTheme = global::Cinepolis.Droid.Resource.Attribute.isLightTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemBackground = global::Cinepolis.Droid.Resource.Attribute.itemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemIconTint = global::Cinepolis.Droid.Resource.Attribute.itemIconTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemPadding = global::Cinepolis.Droid.Resource.Attribute.itemPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemTextAppearance = global::Cinepolis.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemTextColor = global::Cinepolis.Droid.Resource.Attribute.itemTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.keylines = global::Cinepolis.Droid.Resource.Attribute.keylines;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout = global::Cinepolis.Droid.Resource.Attribute.layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layoutManager = global::Cinepolis.Droid.Resource.Attribute.layoutManager;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_anchor = global::Cinepolis.Droid.Resource.Attribute.layout_anchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_anchorGravity = global::Cinepolis.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_behavior = global::Cinepolis.Droid.Resource.Attribute.layout_behavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_collapseMode = global::Cinepolis.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::Cinepolis.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_dodgeInsetEdges = global::Cinepolis.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_insetEdge = global::Cinepolis.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_keyline = global::Cinepolis.Droid.Resource.Attribute.layout_keyline;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_scrollFlags = global::Cinepolis.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_scrollInterpolator = global::Cinepolis.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::Cinepolis.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listDividerAlertDialog = global::Cinepolis.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listItemLayout = global::Cinepolis.Droid.Resource.Attribute.listItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listLayout = global::Cinepolis.Droid.Resource.Attribute.listLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listMenuViewStyle = global::Cinepolis.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPopupWindowStyle = global::Cinepolis.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemHeight = global::Cinepolis.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemHeightLarge = global::Cinepolis.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemHeightSmall = global::Cinepolis.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::Cinepolis.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemPaddingRight = global::Cinepolis.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.logo = global::Cinepolis.Droid.Resource.Attribute.logo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.logoDescription = global::Cinepolis.Droid.Resource.Attribute.logoDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.maxActionInlineWidth = global::Cinepolis.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.maxButtonHeight = global::Cinepolis.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.measureWithLargestChild = global::Cinepolis.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.menu = global::Cinepolis.Droid.Resource.Attribute.menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.multiChoiceItemLayout = global::Cinepolis.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.navigationContentDescription = global::Cinepolis.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.navigationIcon = global::Cinepolis.Droid.Resource.Attribute.navigationIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.navigationMode = global::Cinepolis.Droid.Resource.Attribute.navigationMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.numericModifiers = global::Cinepolis.Droid.Resource.Attribute.numericModifiers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.overlapAnchor = global::Cinepolis.Droid.Resource.Attribute.overlapAnchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingBottomNoButtons = global::Cinepolis.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingEnd = global::Cinepolis.Droid.Resource.Attribute.paddingEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingStart = global::Cinepolis.Droid.Resource.Attribute.paddingStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingTopNoTitle = global::Cinepolis.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.panelBackground = global::Cinepolis.Droid.Resource.Attribute.panelBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.panelMenuListTheme = global::Cinepolis.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.panelMenuListWidth = global::Cinepolis.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleContentDescription = global::Cinepolis.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleDrawable = global::Cinepolis.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleEnabled = global::Cinepolis.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleTint = global::Cinepolis.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleTintMode = global::Cinepolis.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.popupMenuStyle = global::Cinepolis.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.popupTheme = global::Cinepolis.Droid.Resource.Attribute.popupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.popupWindowStyle = global::Cinepolis.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.preserveIconSpacing = global::Cinepolis.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.pressedTranslationZ = global::Cinepolis.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.progressBarPadding = global::Cinepolis.Droid.Resource.Attribute.progressBarPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.progressBarStyle = global::Cinepolis.Droid.Resource.Attribute.progressBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.queryBackground = global::Cinepolis.Droid.Resource.Attribute.queryBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.queryHint = global::Cinepolis.Droid.Resource.Attribute.queryHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.radioButtonStyle = global::Cinepolis.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.ratingBarStyle = global::Cinepolis.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.ratingBarStyleIndicator = global::Cinepolis.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.ratingBarStyleSmall = global::Cinepolis.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.reverseLayout = global::Cinepolis.Droid.Resource.Attribute.reverseLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.rippleColor = global::Cinepolis.Droid.Resource.Attribute.rippleColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.scrimAnimationDuration = global::Cinepolis.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::Cinepolis.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.searchHintIcon = global::Cinepolis.Droid.Resource.Attribute.searchHintIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.searchIcon = global::Cinepolis.Droid.Resource.Attribute.searchIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.searchViewStyle = global::Cinepolis.Droid.Resource.Attribute.searchViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.seekBarStyle = global::Cinepolis.Droid.Resource.Attribute.seekBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.selectableItemBackground = global::Cinepolis.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::Cinepolis.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showAsAction = global::Cinepolis.Droid.Resource.Attribute.showAsAction;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showDividers = global::Cinepolis.Droid.Resource.Attribute.showDividers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showText = global::Cinepolis.Droid.Resource.Attribute.showText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showTitle = global::Cinepolis.Droid.Resource.Attribute.showTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.singleChoiceItemLayout = global::Cinepolis.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spanCount = global::Cinepolis.Droid.Resource.Attribute.spanCount;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spinBars = global::Cinepolis.Droid.Resource.Attribute.spinBars;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spinnerDropDownItemStyle = global::Cinepolis.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spinnerStyle = global::Cinepolis.Droid.Resource.Attribute.spinnerStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.splitTrack = global::Cinepolis.Droid.Resource.Attribute.splitTrack;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.srcCompat = global::Cinepolis.Droid.Resource.Attribute.srcCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.stackFromEnd = global::Cinepolis.Droid.Resource.Attribute.stackFromEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.state_above_anchor = global::Cinepolis.Droid.Resource.Attribute.state_above_anchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.state_collapsed = global::Cinepolis.Droid.Resource.Attribute.state_collapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.state_collapsible = global::Cinepolis.Droid.Resource.Attribute.state_collapsible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.statusBarBackground = global::Cinepolis.Droid.Resource.Attribute.statusBarBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.statusBarScrim = global::Cinepolis.Droid.Resource.Attribute.statusBarScrim;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subMenuArrow = global::Cinepolis.Droid.Resource.Attribute.subMenuArrow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.submitBackground = global::Cinepolis.Droid.Resource.Attribute.submitBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitle = global::Cinepolis.Droid.Resource.Attribute.subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitleTextAppearance = global::Cinepolis.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitleTextColor = global::Cinepolis.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitleTextStyle = global::Cinepolis.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.suggestionRowLayout = global::Cinepolis.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchMinWidth = global::Cinepolis.Droid.Resource.Attribute.switchMinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchPadding = global::Cinepolis.Droid.Resource.Attribute.switchPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchStyle = global::Cinepolis.Droid.Resource.Attribute.switchStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchTextAppearance = global::Cinepolis.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabBackground = global::Cinepolis.Droid.Resource.Attribute.tabBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabContentStart = global::Cinepolis.Droid.Resource.Attribute.tabContentStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabGravity = global::Cinepolis.Droid.Resource.Attribute.tabGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabIndicatorColor = global::Cinepolis.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabIndicatorHeight = global::Cinepolis.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabMaxWidth = global::Cinepolis.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabMinWidth = global::Cinepolis.Droid.Resource.Attribute.tabMinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabMode = global::Cinepolis.Droid.Resource.Attribute.tabMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPadding = global::Cinepolis.Droid.Resource.Attribute.tabPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingBottom = global::Cinepolis.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingEnd = global::Cinepolis.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingStart = global::Cinepolis.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingTop = global::Cinepolis.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabSelectedTextColor = global::Cinepolis.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabTextAppearance = global::Cinepolis.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabTextColor = global::Cinepolis.Droid.Resource.Attribute.tabTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAllCaps = global::Cinepolis.Droid.Resource.Attribute.textAllCaps;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::Cinepolis.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceListItem = global::Cinepolis.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceListItemSecondary = global::Cinepolis.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceListItemSmall = global::Cinepolis.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::Cinepolis.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Cinepolis.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::Cinepolis.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::Cinepolis.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textColorAlertDialogListItem = global::Cinepolis.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textColorSearchUrl = global::Cinepolis.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.theme = global::Cinepolis.Droid.Resource.Attribute.theme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thickness = global::Cinepolis.Droid.Resource.Attribute.thickness;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thumbTextPadding = global::Cinepolis.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thumbTint = global::Cinepolis.Droid.Resource.Attribute.thumbTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thumbTintMode = global::Cinepolis.Droid.Resource.Attribute.thumbTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tickMark = global::Cinepolis.Droid.Resource.Attribute.tickMark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tickMarkTint = global::Cinepolis.Droid.Resource.Attribute.tickMarkTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tickMarkTintMode = global::Cinepolis.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tint = global::Cinepolis.Droid.Resource.Attribute.tint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tintMode = global::Cinepolis.Droid.Resource.Attribute.tintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.title = global::Cinepolis.Droid.Resource.Attribute.title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleEnabled = global::Cinepolis.Droid.Resource.Attribute.titleEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMargin = global::Cinepolis.Droid.Resource.Attribute.titleMargin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginBottom = global::Cinepolis.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginEnd = global::Cinepolis.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginStart = global::Cinepolis.Droid.Resource.Attribute.titleMarginStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginTop = global::Cinepolis.Droid.Resource.Attribute.titleMarginTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMargins = global::Cinepolis.Droid.Resource.Attribute.titleMargins;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleTextAppearance = global::Cinepolis.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleTextColor = global::Cinepolis.Droid.Resource.Attribute.titleTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleTextStyle = global::Cinepolis.Droid.Resource.Attribute.titleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.toolbarId = global::Cinepolis.Droid.Resource.Attribute.toolbarId;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::Cinepolis.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.toolbarStyle = global::Cinepolis.Droid.Resource.Attribute.toolbarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tooltipForegroundColor = global::Cinepolis.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tooltipFrameBackground = global::Cinepolis.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tooltipText = global::Cinepolis.Droid.Resource.Attribute.tooltipText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.track = global::Cinepolis.Droid.Resource.Attribute.track;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.trackTint = global::Cinepolis.Droid.Resource.Attribute.trackTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.trackTintMode = global::Cinepolis.Droid.Resource.Attribute.trackTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.useCompatPadding = global::Cinepolis.Droid.Resource.Attribute.useCompatPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.voiceIcon = global::Cinepolis.Droid.Resource.Attribute.voiceIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowActionBar = global::Cinepolis.Droid.Resource.Attribute.windowActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowActionBarOverlay = global::Cinepolis.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowActionModeOverlay = global::Cinepolis.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedHeightMajor = global::Cinepolis.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedHeightMinor = global::Cinepolis.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedWidthMajor = global::Cinepolis.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedWidthMinor = global::Cinepolis.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowMinWidthMajor = global::Cinepolis.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowMinWidthMinor = global::Cinepolis.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowNoTitle = global::Cinepolis.Droid.Resource.Attribute.windowNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::Cinepolis.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Cinepolis.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Cinepolis.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::Cinepolis.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::Cinepolis.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_btn_colored_text_material = global::Cinepolis.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_color_highlight_material = global::Cinepolis.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_hint_foreground_material_dark = global::Cinepolis.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_hint_foreground_material_light = global::Cinepolis.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::Cinepolis.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::Cinepolis.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_material_dark = global::Cinepolis.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_material_light = global::Cinepolis.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text = global::Cinepolis.Droid.Resource.Color.abc_search_url_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text_normal = global::Cinepolis.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text_pressed = global::Cinepolis.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text_selected = global::Cinepolis.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_secondary_text_material_dark = global::Cinepolis.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_secondary_text_material_light = global::Cinepolis.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_btn_checkable = global::Cinepolis.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_default = global::Cinepolis.Droid.Resource.Color.abc_tint_default;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_edittext = global::Cinepolis.Droid.Resource.Color.abc_tint_edittext;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_seek_thumb = global::Cinepolis.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_spinner = global::Cinepolis.Droid.Resource.Color.abc_tint_spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_switch_track = global::Cinepolis.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.accent_material_dark = global::Cinepolis.Droid.Resource.Color.accent_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.accent_material_light = global::Cinepolis.Droid.Resource.Color.accent_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_floating_material_dark = global::Cinepolis.Droid.Resource.Color.background_floating_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_floating_material_light = global::Cinepolis.Droid.Resource.Color.background_floating_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_material_dark = global::Cinepolis.Droid.Resource.Color.background_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_material_light = global::Cinepolis.Droid.Resource.Color.background_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_disabled_material_dark = global::Cinepolis.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_disabled_material_light = global::Cinepolis.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_inverse_material_dark = global::Cinepolis.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_inverse_material_light = global::Cinepolis.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_material_dark = global::Cinepolis.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_material_light = global::Cinepolis.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.button_material_dark = global::Cinepolis.Droid.Resource.Color.button_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.button_material_light = global::Cinepolis.Droid.Resource.Color.button_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_dark_background = global::Cinepolis.Droid.Resource.Color.cardview_dark_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_light_background = global::Cinepolis.Droid.Resource.Color.cardview_light_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_shadow_end_color = global::Cinepolis.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_shadow_start_color = global::Cinepolis.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_bottom_navigation_shadow_color = global::Cinepolis.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_error = global::Cinepolis.Droid.Resource.Color.design_error;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_shadow_end_color = global::Cinepolis.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_shadow_mid_color = global::Cinepolis.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_shadow_start_color = global::Cinepolis.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_end_inner_color = global::Cinepolis.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_end_outer_color = global::Cinepolis.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_top_inner_color = global::Cinepolis.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_top_outer_color = global::Cinepolis.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_snackbar_background_color = global::Cinepolis.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_disabled_material_dark = global::Cinepolis.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_disabled_material_light = global::Cinepolis.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_material_dark = global::Cinepolis.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_material_light = global::Cinepolis.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.foreground_material_dark = global::Cinepolis.Droid.Resource.Color.foreground_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.foreground_material_light = global::Cinepolis.Droid.Resource.Color.foreground_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.highlighted_text_material_dark = global::Cinepolis.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.highlighted_text_material_light = global::Cinepolis.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_blue_grey_800 = global::Cinepolis.Droid.Resource.Color.material_blue_grey_800;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_blue_grey_900 = global::Cinepolis.Droid.Resource.Color.material_blue_grey_900;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_blue_grey_950 = global::Cinepolis.Droid.Resource.Color.material_blue_grey_950;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_deep_teal_200 = global::Cinepolis.Droid.Resource.Color.material_deep_teal_200;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_deep_teal_500 = global::Cinepolis.Droid.Resource.Color.material_deep_teal_500;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_100 = global::Cinepolis.Droid.Resource.Color.material_grey_100;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_300 = global::Cinepolis.Droid.Resource.Color.material_grey_300;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_50 = global::Cinepolis.Droid.Resource.Color.material_grey_50;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_600 = global::Cinepolis.Droid.Resource.Color.material_grey_600;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_800 = global::Cinepolis.Droid.Resource.Color.material_grey_800;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_850 = global::Cinepolis.Droid.Resource.Color.material_grey_850;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_900 = global::Cinepolis.Droid.Resource.Color.material_grey_900;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.notification_action_color_filter = global::Cinepolis.Droid.Resource.Color.notification_action_color_filter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.notification_icon_bg_color = global::Cinepolis.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.notification_material_background_media_default_color = global::Cinepolis.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_dark_material_dark = global::Cinepolis.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_dark_material_light = global::Cinepolis.Droid.Resource.Color.primary_dark_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_material_dark = global::Cinepolis.Droid.Resource.Color.primary_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_material_light = global::Cinepolis.Droid.Resource.Color.primary_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_default_material_dark = global::Cinepolis.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_default_material_light = global::Cinepolis.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_disabled_material_dark = global::Cinepolis.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_disabled_material_light = global::Cinepolis.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.ripple_material_dark = global::Cinepolis.Droid.Resource.Color.ripple_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.ripple_material_light = global::Cinepolis.Droid.Resource.Color.ripple_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_default_material_dark = global::Cinepolis.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_default_material_light = global::Cinepolis.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_disabled_material_dark = global::Cinepolis.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_disabled_material_light = global::Cinepolis.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_disabled_material_dark = global::Cinepolis.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_disabled_material_light = global::Cinepolis.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_material_dark = global::Cinepolis.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_material_light = global::Cinepolis.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_normal_material_dark = global::Cinepolis.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_normal_material_light = global::Cinepolis.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.tooltip_background_dark = global::Cinepolis.Droid.Resource.Color.tooltip_background_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.tooltip_background_light = global::Cinepolis.Droid.Resource.Color.tooltip_background_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_default_height_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_elevation_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_button_min_height_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_button_min_width_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Cinepolis.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Cinepolis.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::Cinepolis.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_inset_vertical_material = global::Cinepolis.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::Cinepolis.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_padding_vertical_material = global::Cinepolis.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Cinepolis.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_config_prefDialogWidth = global::Cinepolis.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_control_corner_material = global::Cinepolis.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_control_inset_material = global::Cinepolis.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_control_padding_material = global::Cinepolis.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_min_width_major = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_min_width_minor = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_padding_material = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_padding_top_material = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_title_divider_material = global::Cinepolis.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::Cinepolis.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::Cinepolis.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::Cinepolis.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Cinepolis.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Cinepolis.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Cinepolis.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Cinepolis.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::Cinepolis.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_floating_window_z = global::Cinepolis.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Cinepolis.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_panel_menu_list_width = global::Cinepolis.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_progress_bar_height_material = global::Cinepolis.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_search_view_preferred_height = global::Cinepolis.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_search_view_preferred_width = global::Cinepolis.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::Cinepolis.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Cinepolis.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::Cinepolis.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_switch_padding = global::Cinepolis.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_body_1_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_body_2_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_button_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_caption_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_1_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_2_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_3_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_4_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_headline_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_large_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_medium_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_menu_header_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_menu_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_small_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_subhead_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_title_material = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::Cinepolis.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.cardview_compat_inset_shadow = global::Cinepolis.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.cardview_default_elevation = global::Cinepolis.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.cardview_default_radius = global::Cinepolis.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::Cinepolis.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_inset_vertical_material = global::Cinepolis.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::Cinepolis.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_padding_vertical_material = global::Cinepolis.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_control_corner_material = global::Cinepolis.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_appbar_elevation = global::Cinepolis.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Cinepolis.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::Cinepolis.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_elevation = global::Cinepolis.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_height = global::Cinepolis.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::Cinepolis.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::Cinepolis.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_margin = global::Cinepolis.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::Cinepolis.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_text_size = global::Cinepolis.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Cinepolis.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Cinepolis.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_border_width = global::Cinepolis.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_elevation = global::Cinepolis.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_image_size = global::Cinepolis.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_size_mini = global::Cinepolis.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_size_normal = global::Cinepolis.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_translation_z_pressed = global::Cinepolis.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_elevation = global::Cinepolis.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_icon_padding = global::Cinepolis.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_icon_size = global::Cinepolis.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_max_width = global::Cinepolis.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_padding_bottom = global::Cinepolis.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::Cinepolis.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_elevation = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_max_width = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_min_width = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_padding_vertical = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_text_size = global::Cinepolis.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_max_width = global::Cinepolis.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_scrollable_min_width = global::Cinepolis.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_text_size = global::Cinepolis.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_text_size_2line = global::Cinepolis.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.disabled_alpha_material_dark = global::Cinepolis.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.disabled_alpha_material_light = global::Cinepolis.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.fastscroll_default_thickness = global::Cinepolis.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.fastscroll_margin = global::Cinepolis.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.fastscroll_minimum_range = global::Cinepolis.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.highlight_alpha_material_colored = global::Cinepolis.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.highlight_alpha_material_dark = global::Cinepolis.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.highlight_alpha_material_light = global::Cinepolis.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_alpha_material_dark = global::Cinepolis.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_alpha_material_light = global::Cinepolis.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::Cinepolis.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::Cinepolis.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Cinepolis.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Cinepolis.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Cinepolis.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_action_icon_size = global::Cinepolis.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_action_text_size = global::Cinepolis.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_big_circle_margin = global::Cinepolis.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_content_margin_start = global::Cinepolis.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_large_icon_height = global::Cinepolis.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_large_icon_width = global::Cinepolis.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_main_column_padding_top = global::Cinepolis.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_media_narrow_margin = global::Cinepolis.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_right_icon_size = global::Cinepolis.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_right_side_padding_top = global::Cinepolis.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_small_icon_background_padding = global::Cinepolis.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_small_icon_size_as_large = global::Cinepolis.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_subtext_size = global::Cinepolis.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_top_pad = global::Cinepolis.Droid.Resource.Dimension.notification_top_pad;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_top_pad_large_text = global::Cinepolis.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_corner_radius = global::Cinepolis.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_horizontal_padding = global::Cinepolis.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_margin = global::Cinepolis.Droid.Resource.Dimension.tooltip_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Cinepolis.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::Cinepolis.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_vertical_padding = global::Cinepolis.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::Cinepolis.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_y_offset_touch = global::Cinepolis.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_action_bar_item_background_material = global::Cinepolis.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_borderless_material = global::Cinepolis.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_check_material = global::Cinepolis.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Cinepolis.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Cinepolis.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_colored_material = global::Cinepolis.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::Cinepolis.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_radio_material = global::Cinepolis.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Cinepolis.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Cinepolis.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Cinepolis.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Cinepolis.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_cab_background_internal_bg = global::Cinepolis.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_cab_background_top_material = global::Cinepolis.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_control_background_material = global::Cinepolis.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_dialog_material_background = global::Cinepolis.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_edit_text_material = global::Cinepolis.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_ab_back_material = global::Cinepolis.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Cinepolis.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_clear_material = global::Cinepolis.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_go_search_api_material = global::Cinepolis.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::Cinepolis.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_search_api_material = global::Cinepolis.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::Cinepolis.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_item_background_holo_dark = global::Cinepolis.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_item_background_holo_light = global::Cinepolis.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_focused_holo = global::Cinepolis.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_longpressed_holo = global::Cinepolis.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::Cinepolis.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_pressed_holo_light = global::Cinepolis.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Cinepolis.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Cinepolis.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Cinepolis.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Cinepolis.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_holo_dark = global::Cinepolis.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_holo_light = global::Cinepolis.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Cinepolis.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::Cinepolis.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::Cinepolis.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ratingbar_material = global::Cinepolis.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ratingbar_small_material = global::Cinepolis.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Cinepolis.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Cinepolis.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_seekbar_thumb_material = global::Cinepolis.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::Cinepolis.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_seekbar_track_material = global::Cinepolis.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::Cinepolis.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_switch_thumb_material = global::Cinepolis.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_tab_indicator_material = global::Cinepolis.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_cursor_material = global::Cinepolis.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Cinepolis.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_search_material = global::Cinepolis.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_vector_test = global::Cinepolis.Droid.Resource.Drawable.abc_vector_test;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.avd_hide_password = global::Cinepolis.Droid.Resource.Drawable.avd_hide_password;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.avd_show_password = global::Cinepolis.Droid.Resource.Drawable.avd_show_password;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_fab_background = global::Cinepolis.Droid.Resource.Drawable.design_fab_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_ic_visibility = global::Cinepolis.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_ic_visibility_off = global::Cinepolis.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_password_eye = global::Cinepolis.Droid.Resource.Drawable.design_password_eye;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_snackbar_background = global::Cinepolis.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.ic_fullscreen = global::Cinepolis.Droid.Resource.Drawable.ic_fullscreen;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.ic_fullscreen_exit = global::Cinepolis.Droid.Resource.Drawable.ic_fullscreen_exit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.navigation_empty_icon = global::Cinepolis.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_action_background = global::Cinepolis.Droid.Resource.Drawable.notification_action_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg = global::Cinepolis.Droid.Resource.Drawable.notification_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_low = global::Cinepolis.Droid.Resource.Drawable.notification_bg_low;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_low_normal = global::Cinepolis.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_low_pressed = global::Cinepolis.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_normal = global::Cinepolis.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_normal_pressed = global::Cinepolis.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_icon_background = global::Cinepolis.Droid.Resource.Drawable.notification_icon_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_template_icon_bg = global::Cinepolis.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_template_icon_low_bg = global::Cinepolis.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_tile_bg = global::Cinepolis.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::Cinepolis.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.tooltip_frame_dark = global::Cinepolis.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.tooltip_frame_light = global::Cinepolis.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.ALT = global::Cinepolis.Droid.Resource.Id.ALT;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.CTRL = global::Cinepolis.Droid.Resource.Id.CTRL;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.FUNCTION = global::Cinepolis.Droid.Resource.Id.FUNCTION;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.META = global::Cinepolis.Droid.Resource.Id.META;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.SHIFT = global::Cinepolis.Droid.Resource.Id.SHIFT;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.SYM = global::Cinepolis.Droid.Resource.Id.SYM;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action0 = global::Cinepolis.Droid.Resource.Id.action0;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar = global::Cinepolis.Droid.Resource.Id.action_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_activity_content = global::Cinepolis.Droid.Resource.Id.action_bar_activity_content;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_container = global::Cinepolis.Droid.Resource.Id.action_bar_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_root = global::Cinepolis.Droid.Resource.Id.action_bar_root;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_spinner = global::Cinepolis.Droid.Resource.Id.action_bar_spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_subtitle = global::Cinepolis.Droid.Resource.Id.action_bar_subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_title = global::Cinepolis.Droid.Resource.Id.action_bar_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_container = global::Cinepolis.Droid.Resource.Id.action_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_context_bar = global::Cinepolis.Droid.Resource.Id.action_context_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_divider = global::Cinepolis.Droid.Resource.Id.action_divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_image = global::Cinepolis.Droid.Resource.Id.action_image;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_menu_divider = global::Cinepolis.Droid.Resource.Id.action_menu_divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_menu_presenter = global::Cinepolis.Droid.Resource.Id.action_menu_presenter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_mode_bar = global::Cinepolis.Droid.Resource.Id.action_mode_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_mode_bar_stub = global::Cinepolis.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_mode_close_button = global::Cinepolis.Droid.Resource.Id.action_mode_close_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_text = global::Cinepolis.Droid.Resource.Id.action_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.actions = global::Cinepolis.Droid.Resource.Id.actions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.activity_chooser_view_content = global::Cinepolis.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.add = global::Cinepolis.Droid.Resource.Id.add;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.alertTitle = global::Cinepolis.Droid.Resource.Id.alertTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.all = global::Cinepolis.Droid.Resource.Id.all;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.always = global::Cinepolis.Droid.Resource.Id.always;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.async = global::Cinepolis.Droid.Resource.Id.async;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.auto = global::Cinepolis.Droid.Resource.Id.auto;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.beginning = global::Cinepolis.Droid.Resource.Id.beginning;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.blocking = global::Cinepolis.Droid.Resource.Id.blocking;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.bottom = global::Cinepolis.Droid.Resource.Id.bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.bottomtab_navarea = global::Cinepolis.Droid.Resource.Id.bottomtab_navarea;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.bottomtab_tabbar = global::Cinepolis.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.buttonPanel = global::Cinepolis.Droid.Resource.Id.buttonPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.cancel_action = global::Cinepolis.Droid.Resource.Id.cancel_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.center = global::Cinepolis.Droid.Resource.Id.center;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.center_horizontal = global::Cinepolis.Droid.Resource.Id.center_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.center_vertical = global::Cinepolis.Droid.Resource.Id.center_vertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.checkbox = global::Cinepolis.Droid.Resource.Id.checkbox;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.chronometer = global::Cinepolis.Droid.Resource.Id.chronometer;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.clip_horizontal = global::Cinepolis.Droid.Resource.Id.clip_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.clip_vertical = global::Cinepolis.Droid.Resource.Id.clip_vertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.collapseActionView = global::Cinepolis.Droid.Resource.Id.collapseActionView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.container = global::Cinepolis.Droid.Resource.Id.container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.contentPanel = global::Cinepolis.Droid.Resource.Id.contentPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.coordinator = global::Cinepolis.Droid.Resource.Id.coordinator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.custom = global::Cinepolis.Droid.Resource.Id.custom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.customPanel = global::Cinepolis.Droid.Resource.Id.customPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.decor_content_parent = global::Cinepolis.Droid.Resource.Id.decor_content_parent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.default_activity_button = global::Cinepolis.Droid.Resource.Id.default_activity_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_bottom_sheet = global::Cinepolis.Droid.Resource.Id.design_bottom_sheet;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_menu_item_action_area = global::Cinepolis.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_menu_item_action_area_stub = global::Cinepolis.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_menu_item_text = global::Cinepolis.Droid.Resource.Id.design_menu_item_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_navigation_view = global::Cinepolis.Droid.Resource.Id.design_navigation_view;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.disableHome = global::Cinepolis.Droid.Resource.Id.disableHome;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.edit_query = global::Cinepolis.Droid.Resource.Id.edit_query;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.end = global::Cinepolis.Droid.Resource.Id.end;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.end_padder = global::Cinepolis.Droid.Resource.Id.end_padder;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.enterAlways = global::Cinepolis.Droid.Resource.Id.enterAlways;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.enterAlwaysCollapsed = global::Cinepolis.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.exitUntilCollapsed = global::Cinepolis.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.expand_activities_button = global::Cinepolis.Droid.Resource.Id.expand_activities_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.expanded_menu = global::Cinepolis.Droid.Resource.Id.expanded_menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.fill = global::Cinepolis.Droid.Resource.Id.fill;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.fill_horizontal = global::Cinepolis.Droid.Resource.Id.fill_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.fill_vertical = global::Cinepolis.Droid.Resource.Id.fill_vertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.@fixed = global::Cinepolis.Droid.Resource.Id.@fixed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.flyoutcontent_appbar = global::Cinepolis.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.forever = global::Cinepolis.Droid.Resource.Id.forever;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.ghost_view = global::Cinepolis.Droid.Resource.Id.ghost_view;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.home = global::Cinepolis.Droid.Resource.Id.home;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.homeAsUp = global::Cinepolis.Droid.Resource.Id.homeAsUp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.icon = global::Cinepolis.Droid.Resource.Id.icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.icon_group = global::Cinepolis.Droid.Resource.Id.icon_group;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.ifRoom = global::Cinepolis.Droid.Resource.Id.ifRoom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.image = global::Cinepolis.Droid.Resource.Id.image;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.info = global::Cinepolis.Droid.Resource.Id.info;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.italic = global::Cinepolis.Droid.Resource.Id.italic;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.item_touch_helper_previous_elevation = global::Cinepolis.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.left = global::Cinepolis.Droid.Resource.Id.left;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.line1 = global::Cinepolis.Droid.Resource.Id.line1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.line3 = global::Cinepolis.Droid.Resource.Id.line3;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.listMode = global::Cinepolis.Droid.Resource.Id.listMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.list_item = global::Cinepolis.Droid.Resource.Id.list_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_appbar = global::Cinepolis.Droid.Resource.Id.main_appbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_tablayout = global::Cinepolis.Droid.Resource.Id.main_tablayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_toolbar = global::Cinepolis.Droid.Resource.Id.main_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_viewpager = global::Cinepolis.Droid.Resource.Id.main_viewpager;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.masked = global::Cinepolis.Droid.Resource.Id.masked;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.media_actions = global::Cinepolis.Droid.Resource.Id.media_actions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.message = global::Cinepolis.Droid.Resource.Id.message;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.middle = global::Cinepolis.Droid.Resource.Id.middle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.mini = global::Cinepolis.Droid.Resource.Id.mini;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.multiply = global::Cinepolis.Droid.Resource.Id.multiply;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.navigation_header_container = global::Cinepolis.Droid.Resource.Id.navigation_header_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.never = global::Cinepolis.Droid.Resource.Id.never;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.none = global::Cinepolis.Droid.Resource.Id.none;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.normal = global::Cinepolis.Droid.Resource.Id.normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.notification_background = global::Cinepolis.Droid.Resource.Id.notification_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.notification_main_column = global::Cinepolis.Droid.Resource.Id.notification_main_column;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.notification_main_column_container = global::Cinepolis.Droid.Resource.Id.notification_main_column_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.parallax = global::Cinepolis.Droid.Resource.Id.parallax;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.parentPanel = global::Cinepolis.Droid.Resource.Id.parentPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.parent_matrix = global::Cinepolis.Droid.Resource.Id.parent_matrix;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.pin = global::Cinepolis.Droid.Resource.Id.pin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.progress_circular = global::Cinepolis.Droid.Resource.Id.progress_circular;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.progress_horizontal = global::Cinepolis.Droid.Resource.Id.progress_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.radio = global::Cinepolis.Droid.Resource.Id.radio;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.right = global::Cinepolis.Droid.Resource.Id.right;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.right_icon = global::Cinepolis.Droid.Resource.Id.right_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.right_side = global::Cinepolis.Droid.Resource.Id.right_side;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.save_non_transition_alpha = global::Cinepolis.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.screen = global::Cinepolis.Droid.Resource.Id.screen;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scroll = global::Cinepolis.Droid.Resource.Id.scroll;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollIndicatorDown = global::Cinepolis.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollIndicatorUp = global::Cinepolis.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollView = global::Cinepolis.Droid.Resource.Id.scrollView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollable = global::Cinepolis.Droid.Resource.Id.scrollable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_badge = global::Cinepolis.Droid.Resource.Id.search_badge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_bar = global::Cinepolis.Droid.Resource.Id.search_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_button = global::Cinepolis.Droid.Resource.Id.search_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_close_btn = global::Cinepolis.Droid.Resource.Id.search_close_btn;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_edit_frame = global::Cinepolis.Droid.Resource.Id.search_edit_frame;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_go_btn = global::Cinepolis.Droid.Resource.Id.search_go_btn;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_mag_icon = global::Cinepolis.Droid.Resource.Id.search_mag_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_plate = global::Cinepolis.Droid.Resource.Id.search_plate;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_src_text = global::Cinepolis.Droid.Resource.Id.search_src_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_voice_btn = global::Cinepolis.Droid.Resource.Id.search_voice_btn;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.select_dialog_listview = global::Cinepolis.Droid.Resource.Id.select_dialog_listview;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.shellcontent_appbar = global::Cinepolis.Droid.Resource.Id.shellcontent_appbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.shellcontent_toolbar = global::Cinepolis.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.shortcut = global::Cinepolis.Droid.Resource.Id.shortcut;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.showCustom = global::Cinepolis.Droid.Resource.Id.showCustom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.showHome = global::Cinepolis.Droid.Resource.Id.showHome;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.showTitle = global::Cinepolis.Droid.Resource.Id.showTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.snackbar_action = global::Cinepolis.Droid.Resource.Id.snackbar_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.snackbar_text = global::Cinepolis.Droid.Resource.Id.snackbar_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.snap = global::Cinepolis.Droid.Resource.Id.snap;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.spacer = global::Cinepolis.Droid.Resource.Id.spacer;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.split_action_bar = global::Cinepolis.Droid.Resource.Id.split_action_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.src_atop = global::Cinepolis.Droid.Resource.Id.src_atop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.src_in = global::Cinepolis.Droid.Resource.Id.src_in;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.src_over = global::Cinepolis.Droid.Resource.Id.src_over;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.start = global::Cinepolis.Droid.Resource.Id.start;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.status_bar_latest_event_content = global::Cinepolis.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.submenuarrow = global::Cinepolis.Droid.Resource.Id.submenuarrow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.submit_area = global::Cinepolis.Droid.Resource.Id.submit_area;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.tabMode = global::Cinepolis.Droid.Resource.Id.tabMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.tag_transition_group = global::Cinepolis.Droid.Resource.Id.tag_transition_group;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.text = global::Cinepolis.Droid.Resource.Id.text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.text2 = global::Cinepolis.Droid.Resource.Id.text2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textSpacerNoButtons = global::Cinepolis.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textSpacerNoTitle = global::Cinepolis.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textinput_counter = global::Cinepolis.Droid.Resource.Id.textinput_counter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textinput_error = global::Cinepolis.Droid.Resource.Id.textinput_error;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.time = global::Cinepolis.Droid.Resource.Id.time;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.title = global::Cinepolis.Droid.Resource.Id.title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.titleDividerNoCustom = global::Cinepolis.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.title_template = global::Cinepolis.Droid.Resource.Id.title_template;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.top = global::Cinepolis.Droid.Resource.Id.top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.topPanel = global::Cinepolis.Droid.Resource.Id.topPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.touch_outside = global::Cinepolis.Droid.Resource.Id.touch_outside;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_current_scene = global::Cinepolis.Droid.Resource.Id.transition_current_scene;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_layout_save = global::Cinepolis.Droid.Resource.Id.transition_layout_save;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_position = global::Cinepolis.Droid.Resource.Id.transition_position;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_scene_layoutid_cache = global::Cinepolis.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_transform = global::Cinepolis.Droid.Resource.Id.transition_transform;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.uniform = global::Cinepolis.Droid.Resource.Id.uniform;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.up = global::Cinepolis.Droid.Resource.Id.up;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.useLogo = global::Cinepolis.Droid.Resource.Id.useLogo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.view_offset_helper = global::Cinepolis.Droid.Resource.Id.view_offset_helper;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.visible = global::Cinepolis.Droid.Resource.Id.visible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.withText = global::Cinepolis.Droid.Resource.Id.withText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.wrap_content = global::Cinepolis.Droid.Resource.Id.wrap_content;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.abc_config_activityDefaultDur = global::Cinepolis.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.abc_config_activityShortDur = global::Cinepolis.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.app_bar_elevation_anim_duration = global::Cinepolis.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.bottom_sheet_slide_duration = global::Cinepolis.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.cancel_button_image_alpha = global::Cinepolis.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.config_tooltipAnimTime = global::Cinepolis.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.design_snackbar_text_max_lines = global::Cinepolis.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.hide_password_duration = global::Cinepolis.Droid.Resource.Integer.hide_password_duration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.show_password_duration = global::Cinepolis.Droid.Resource.Integer.show_password_duration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.status_bar_notification_info_maxnum = global::Cinepolis.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_bar_title_item = global::Cinepolis.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_bar_up_container = global::Cinepolis.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_menu_item_layout = global::Cinepolis.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_menu_layout = global::Cinepolis.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_mode_bar = global::Cinepolis.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_mode_close_item_material = global::Cinepolis.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_activity_chooser_view = global::Cinepolis.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::Cinepolis.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::Cinepolis.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_alert_dialog_material = global::Cinepolis.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_alert_dialog_title_material = global::Cinepolis.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_dialog_title_material = global::Cinepolis.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_expanded_menu_layout = global::Cinepolis.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_checkbox = global::Cinepolis.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_icon = global::Cinepolis.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_layout = global::Cinepolis.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_radio = global::Cinepolis.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::Cinepolis.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_popup_menu_item_layout = global::Cinepolis.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_content_include = global::Cinepolis.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_simple = global::Cinepolis.Droid.Resource.Layout.abc_screen_simple;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Cinepolis.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_toolbar = global::Cinepolis.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Cinepolis.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_search_view = global::Cinepolis.Droid.Resource.Layout.abc_search_view;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_select_dialog_material = global::Cinepolis.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.BottomTabLayout = global::Cinepolis.Droid.Resource.Layout.BottomTabLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_bottom_navigation_item = global::Cinepolis.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_bottom_sheet_dialog = global::Cinepolis.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_snackbar = global::Cinepolis.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_snackbar_include = global::Cinepolis.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_tab_icon = global::Cinepolis.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_tab_text = global::Cinepolis.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_menu_item_action_area = global::Cinepolis.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item = global::Cinepolis.Droid.Resource.Layout.design_navigation_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item_header = global::Cinepolis.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item_separator = global::Cinepolis.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item_subheader = global::Cinepolis.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_menu = global::Cinepolis.Droid.Resource.Layout.design_navigation_menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_menu_item = global::Cinepolis.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.FlyoutContent = global::Cinepolis.Droid.Resource.Layout.FlyoutContent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_action = global::Cinepolis.Droid.Resource.Layout.notification_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_action_tombstone = global::Cinepolis.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_media_action = global::Cinepolis.Droid.Resource.Layout.notification_media_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_media_cancel_action = global::Cinepolis.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media = global::Cinepolis.Droid.Resource.Layout.notification_template_big_media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media_custom = global::Cinepolis.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media_narrow = global::Cinepolis.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::Cinepolis.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_custom_big = global::Cinepolis.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_icon_group = global::Cinepolis.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_lines_media = global::Cinepolis.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_media = global::Cinepolis.Droid.Resource.Layout.notification_template_media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_media_custom = global::Cinepolis.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_part_chronometer = global::Cinepolis.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_part_time = global::Cinepolis.Droid.Resource.Layout.notification_template_part_time;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.RootLayout = global::Cinepolis.Droid.Resource.Layout.RootLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.select_dialog_item_material = global::Cinepolis.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.select_dialog_multichoice_material = global::Cinepolis.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.select_dialog_singlechoice_material = global::Cinepolis.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.ShellContent = global::Cinepolis.Droid.Resource.Layout.ShellContent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Cinepolis.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_bar_home_description = global::Cinepolis.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_bar_up_description = global::Cinepolis.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_menu_overflow_description = global::Cinepolis.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_mode_done = global::Cinepolis.Droid.Resource.String.abc_action_mode_done;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_activity_chooser_view_see_all = global::Cinepolis.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_activitychooserview_choose_application = global::Cinepolis.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_capital_off = global::Cinepolis.Droid.Resource.String.abc_capital_off;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_capital_on = global::Cinepolis.Droid.Resource.String.abc_capital_on;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_search_hint = global::Cinepolis.Droid.Resource.String.abc_search_hint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_clear = global::Cinepolis.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_query = global::Cinepolis.Droid.Resource.String.abc_searchview_description_query;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_search = global::Cinepolis.Droid.Resource.String.abc_searchview_description_search;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_submit = global::Cinepolis.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_voice = global::Cinepolis.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_shareactionprovider_share_with = global::Cinepolis.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_shareactionprovider_share_with_application = global::Cinepolis.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_toolbar_collapse_description = global::Cinepolis.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.app_name = global::Cinepolis.Droid.Resource.String.app_name;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.appbar_scrolling_view_behavior = global::Cinepolis.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.bottom_sheet_behavior = global::Cinepolis.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.character_counter_pattern = global::Cinepolis.Droid.Resource.String.character_counter_pattern;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.hello = global::Cinepolis.Droid.Resource.String.hello;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.password_toggle_content_description = global::Cinepolis.Droid.Resource.String.password_toggle_content_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_eye = global::Cinepolis.Droid.Resource.String.path_password_eye;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_eye_mask_strike_through = global::Cinepolis.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_eye_mask_visible = global::Cinepolis.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_strike_through = global::Cinepolis.Droid.Resource.String.path_password_strike_through;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.search_menu_title = global::Cinepolis.Droid.Resource.String.search_menu_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.status_bar_notification_info_overflow = global::Cinepolis.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.AlertDialog_AppCompat = global::Cinepolis.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.AlertDialog_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::Cinepolis.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_AppCompat_Tooltip = global::Cinepolis.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::Cinepolis.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_AlertDialog_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Cinepolis.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Cinepolis.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_CardView = global::Cinepolis.Droid.Resource.Style.Base_CardView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Cinepolis.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Cinepolis.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Cinepolis.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Cinepolis.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Cinepolis.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Cinepolis.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Cinepolis.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V22_Theme_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V23_Theme_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V26_Theme_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Cinepolis.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat = global::Cinepolis.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Cinepolis.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Cinepolis.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Cinepolis.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Cinepolis.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Cinepolis.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_Design_TabLayout = global::Cinepolis.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.CardView = global::Cinepolis.Droid.Resource.Style.CardView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.CardView_Dark = global::Cinepolis.Droid.Resource.Style.CardView_Dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.CardView_Light = global::Cinepolis.Droid.Resource.Style.CardView_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_AppCompat = global::Cinepolis.Droid.Resource.Style.Platform_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Cinepolis.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Cinepolis.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V21_AppCompat = global::Cinepolis.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V21_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V25_AppCompat = global::Cinepolis.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V25_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Cinepolis.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Cinepolis.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Cinepolis.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Cinepolis.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Cinepolis.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Button = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Large = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Small = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Title = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Cinepolis.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Cinepolis.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Cinepolis.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Counter = global::Cinepolis.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Cinepolis.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Error = global::Cinepolis.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Hint = global::Cinepolis.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Cinepolis.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Tab = global::Cinepolis.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Cinepolis.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Cinepolis.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Cinepolis.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::Cinepolis.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design = global::Cinepolis.Droid.Resource.Style.Theme_Design;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::Cinepolis.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_Light = global::Cinepolis.Droid.Resource.Style.Theme_Design_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Cinepolis.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::Cinepolis.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_NoActionBar = global::Cinepolis.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat = global::Cinepolis.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Cinepolis.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Cinepolis.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Cinepolis.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Cinepolis.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Cinepolis.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::Cinepolis.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionButton = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionMode = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Small = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_EditText = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ImageButton = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_RatingBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SearchView = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SeekBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Toolbar = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Cinepolis.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::Cinepolis.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Compat_NotificationActionText = global::Cinepolis.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_AppBarLayout = global::Cinepolis.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_BottomNavigationView = global::Cinepolis.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::Cinepolis.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::Cinepolis.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_FloatingActionButton = global::Cinepolis.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_NavigationView = global::Cinepolis.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Cinepolis.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_Snackbar = global::Cinepolis.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_TabLayout = global::Cinepolis.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_TextInputLayout = global::Cinepolis.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar = global::Cinepolis.Droid.Resource.Styleable.ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_background = global::Cinepolis.Droid.Resource.Styleable.ActionBar_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_backgroundSplit = global::Cinepolis.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_backgroundStacked = global::Cinepolis.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::Cinepolis.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Cinepolis.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::Cinepolis.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetRight = global::Cinepolis.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetStart = global::Cinepolis.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Cinepolis.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::Cinepolis.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_displayOptions = global::Cinepolis.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_divider = global::Cinepolis.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_elevation = global::Cinepolis.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_height = global::Cinepolis.Droid.Resource.Styleable.ActionBar_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::Cinepolis.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Cinepolis.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_homeLayout = global::Cinepolis.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_icon = global::Cinepolis.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Cinepolis.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_itemPadding = global::Cinepolis.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_logo = global::Cinepolis.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_navigationMode = global::Cinepolis.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_popupTheme = global::Cinepolis.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_progressBarPadding = global::Cinepolis.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_progressBarStyle = global::Cinepolis.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_subtitle = global::Cinepolis.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::Cinepolis.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_title = global::Cinepolis.Droid.Resource.Styleable.ActionBar_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_titleTextStyle = global::Cinepolis.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBarLayout = global::Cinepolis.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Cinepolis.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMenuItemView = global::Cinepolis.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Cinepolis.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMenuView = global::Cinepolis.Droid.Resource.Styleable.ActionMenuView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode = global::Cinepolis.Droid.Resource.Styleable.ActionMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_background = global::Cinepolis.Droid.Resource.Styleable.ActionMode_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_backgroundSplit = global::Cinepolis.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_closeItemLayout = global::Cinepolis.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_height = global::Cinepolis.Droid.Resource.Styleable.ActionMode_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::Cinepolis.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_titleTextStyle = global::Cinepolis.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActivityChooserView = global::Cinepolis.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Cinepolis.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Cinepolis.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog = global::Cinepolis.Droid.Resource.Styleable.AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_android_layout = global::Cinepolis.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Cinepolis.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_listItemLayout = global::Cinepolis.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_listLayout = global::Cinepolis.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Cinepolis.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_showTitle = global::Cinepolis.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Cinepolis.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout = global::Cinepolis.Droid.Resource.Styleable.AppBarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_android_background = global::Cinepolis.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Cinepolis.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Cinepolis.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_elevation = global::Cinepolis.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_expanded = global::Cinepolis.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayoutStates = global::Cinepolis.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Cinepolis.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Cinepolis.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_Layout = global::Cinepolis.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Cinepolis.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Cinepolis.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView = global::Cinepolis.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_android_src = global::Cinepolis.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::Cinepolis.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_tint = global::Cinepolis.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_tintMode = global::Cinepolis.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar = global::Cinepolis.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Cinepolis.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::Cinepolis.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Cinepolis.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Cinepolis.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::Cinepolis.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorError = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Cinepolis.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView = global::Cinepolis.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::Cinepolis.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Cinepolis.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Cinepolis.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Cinepolis.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ButtonBarLayout = global::Cinepolis.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::Cinepolis.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView = global::Cinepolis.Droid.Resource.Styleable.CardView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_android_minHeight = global::Cinepolis.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_android_minWidth = global::Cinepolis.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardBackgroundColor = global::Cinepolis.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardCornerRadius = global::Cinepolis.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardElevation = global::Cinepolis.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardMaxElevation = global::Cinepolis.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Cinepolis.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::Cinepolis.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPadding = global::Cinepolis.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingBottom = global::Cinepolis.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingLeft = global::Cinepolis.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingRight = global::Cinepolis.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingTop = global::Cinepolis.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Cinepolis.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem = global::Cinepolis.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem_alpha = global::Cinepolis.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::Cinepolis.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem_android_color = global::Cinepolis.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton = global::Cinepolis.Droid.Resource.Styleable.CompoundButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton_android_button = global::Cinepolis.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton_buttonTint = global::Cinepolis.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::Cinepolis.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_keylines = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Cinepolis.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle = global::Cinepolis.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Cinepolis.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Cinepolis.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::Cinepolis.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_color = global::Cinepolis.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Cinepolis.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Cinepolis.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::Cinepolis.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::Cinepolis.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_elevation = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_fabSize = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Cinepolis.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily = global::Cinepolis.Droid.Resource.Styleable.FontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::Cinepolis.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::Cinepolis.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Cinepolis.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Cinepolis.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::Cinepolis.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::Cinepolis.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont = global::Cinepolis.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_android_font = global::Cinepolis.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Cinepolis.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Cinepolis.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_font = global::Cinepolis.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::Cinepolis.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::Cinepolis.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout = global::Cinepolis.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Cinepolis.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Cinepolis.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Cinepolis.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_divider = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Cinepolis.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ListPopupWindow = global::Cinepolis.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Cinepolis.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Cinepolis.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup = global::Cinepolis.Droid.Resource.Styleable.MenuGroup;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Cinepolis.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_enabled = global::Cinepolis.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_id = global::Cinepolis.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::Cinepolis.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::Cinepolis.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_visible = global::Cinepolis.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem = global::Cinepolis.Droid.Resource.Styleable.MenuItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_actionLayout = global::Cinepolis.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_actionProviderClass = global::Cinepolis.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_actionViewClass = global::Cinepolis.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::Cinepolis.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_checkable = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_checked = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_enabled = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_icon = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_id = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_menuCategory = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_onClick = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_title = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_visible = global::Cinepolis.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_contentDescription = global::Cinepolis.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_iconTint = global::Cinepolis.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_iconTintMode = global::Cinepolis.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_numericModifiers = global::Cinepolis.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_showAsAction = global::Cinepolis.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_tooltipText = global::Cinepolis.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView = global::Cinepolis.Droid.Resource.Styleable.MenuView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_headerBackground = global::Cinepolis.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::Cinepolis.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_itemBackground = global::Cinepolis.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Cinepolis.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::Cinepolis.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_verticalDivider = global::Cinepolis.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Cinepolis.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::Cinepolis.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_subMenuArrow = global::Cinepolis.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView = global::Cinepolis.Droid.Resource.Styleable.NavigationView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_android_background = global::Cinepolis.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Cinepolis.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_android_maxWidth = global::Cinepolis.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_elevation = global::Cinepolis.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_headerLayout = global::Cinepolis.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemBackground = global::Cinepolis.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemIconTint = global::Cinepolis.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::Cinepolis.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemTextColor = global::Cinepolis.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_menu = global::Cinepolis.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow = global::Cinepolis.Droid.Resource.Styleable.PopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Cinepolis.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::Cinepolis.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::Cinepolis.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindowBackgroundState = global::Cinepolis.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Cinepolis.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecycleListView = global::Cinepolis.Droid.Resource.Styleable.RecycleListView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Cinepolis.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Cinepolis.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView = global::Cinepolis.Droid.Resource.Styleable.RecyclerView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_android_orientation = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_layoutManager = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_reverseLayout = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_spanCount = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::Cinepolis.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::Cinepolis.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Cinepolis.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::Cinepolis.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Cinepolis.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView = global::Cinepolis.Droid.Resource.Styleable.SearchView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_focusable = global::Cinepolis.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_imeOptions = global::Cinepolis.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_inputType = global::Cinepolis.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_maxWidth = global::Cinepolis.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_closeIcon = global::Cinepolis.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_commitIcon = global::Cinepolis.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_defaultQueryHint = global::Cinepolis.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_goIcon = global::Cinepolis.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::Cinepolis.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_layout = global::Cinepolis.Droid.Resource.Styleable.SearchView_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_queryBackground = global::Cinepolis.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_queryHint = global::Cinepolis.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_searchHintIcon = global::Cinepolis.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_searchIcon = global::Cinepolis.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_submitBackground = global::Cinepolis.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::Cinepolis.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_voiceIcon = global::Cinepolis.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout = global::Cinepolis.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Cinepolis.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout_elevation = global::Cinepolis.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Cinepolis.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner = global::Cinepolis.Droid.Resource.Styleable.Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::Cinepolis.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_entries = global::Cinepolis.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_popupBackground = global::Cinepolis.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_prompt = global::Cinepolis.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_popupTheme = global::Cinepolis.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_android_textOff = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_android_textOn = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_android_thumb = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_showText = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_splitTrack = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_switchPadding = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_thumbTint = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_track = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_trackTint = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::Cinepolis.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem = global::Cinepolis.Droid.Resource.Styleable.TabItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem_android_icon = global::Cinepolis.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem_android_layout = global::Cinepolis.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem_android_text = global::Cinepolis.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout = global::Cinepolis.Droid.Resource.Styleable.TabLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabBackground = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabContentStart = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabGravity = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabMinWidth = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabMode = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPadding = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabTextColor = global::Cinepolis.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance = global::Cinepolis.Droid.Resource.Styleable.TextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textColor = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textSize = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textStyle = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_typeface = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_fontFamily = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_textAllCaps = global::Cinepolis.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_android_hint = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Cinepolis.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar = global::Cinepolis.Droid.Resource.Styleable.Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_android_gravity = global::Cinepolis.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_android_minHeight = global::Cinepolis.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_buttonGravity = global::Cinepolis.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::Cinepolis.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_collapseIcon = global::Cinepolis.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::Cinepolis.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Cinepolis.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::Cinepolis.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetRight = global::Cinepolis.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetStart = global::Cinepolis.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Cinepolis.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_logo = global::Cinepolis.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_logoDescription = global::Cinepolis.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::Cinepolis.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::Cinepolis.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_navigationIcon = global::Cinepolis.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_popupTheme = global::Cinepolis.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_subtitle = global::Cinepolis.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Cinepolis.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::Cinepolis.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_title = global::Cinepolis.Droid.Resource.Styleable.Toolbar_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMargin = global::Cinepolis.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::Cinepolis.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::Cinepolis.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginStart = global::Cinepolis.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginTop = global::Cinepolis.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMargins = global::Cinepolis.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::Cinepolis.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleTextColor = global::Cinepolis.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View = global::Cinepolis.Droid.Resource.Styleable.View;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_android_focusable = global::Cinepolis.Droid.Resource.Styleable.View_android_focusable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_android_theme = global::Cinepolis.Droid.Resource.Styleable.View_android_theme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_paddingEnd = global::Cinepolis.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_paddingStart = global::Cinepolis.Droid.Resource.Styleable.View_paddingStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_theme = global::Cinepolis.Droid.Resource.Styleable.View_theme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper = global::Cinepolis.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::Cinepolis.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Cinepolis.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Cinepolis.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat = global::Cinepolis.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat_android_id = global::Cinepolis.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Cinepolis.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat_android_layout = global::Cinepolis.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Cinepolis.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Cinepolis.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::Cinepolis.Droid.Resource.Attribute.fontProviderAuthority;
@@ -18460,151 +20383,157 @@ namespace Cinepolis.Droid
 			public const int ic_clock_black_24dp = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_keyboard_black_24dp = 2131165292;
+			public const int ic_fullscreen = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_checked_circle = 2131165293;
+			public const int ic_fullscreen_exit = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_checked_black = 2131165294;
+			public const int ic_keyboard_black_24dp = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_chip_checked_circle = 2131165295;
+			public const int ic_mtrl_checked_circle = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int ic_mtrl_chip_close_circle = 2131165296;
+			public const int ic_mtrl_chip_checked_black = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int logo = 2131165297;
+			public const int ic_mtrl_chip_checked_circle = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_cursor_drawable = 2131165298;
+			public const int ic_mtrl_chip_close_circle = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_calendar_black_24dp = 2131165299;
+			public const int logo = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_clear_black_24dp = 2131165300;
+			public const int material_cursor_drawable = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_edit_black_24dp = 2131165301;
+			public const int material_ic_calendar_black_24dp = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165302;
+			public const int material_ic_clear_black_24dp = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165303;
+			public const int material_ic_edit_black_24dp = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165304;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165305;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165306;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165307;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_dialog_background = 2131165308;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_dropdown_arrow = 2131165309;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_ic_arrow_drop_down = 2131165310;
+			public const int mtrl_dialog_background = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_ic_arrow_drop_up = 2131165311;
+			public const int mtrl_dropdown_arrow = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_ic_cancel = 2131165312;
+			public const int mtrl_ic_arrow_drop_down = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_ic_error = 2131165313;
+			public const int mtrl_ic_arrow_drop_up = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int mtrl_navigation_bar_item_background = 2131165314;
+			public const int mtrl_ic_cancel = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int mtrl_popupmenu_background = 2131165315;
+			public const int mtrl_ic_error = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int mtrl_popupmenu_background_dark = 2131165316;
+			public const int mtrl_navigation_bar_item_background = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int mtrl_tabs_default_indicator = 2131165317;
+			public const int mtrl_popupmenu_background = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int navigation_empty_icon = 2131165318;
+			public const int mtrl_popupmenu_background_dark = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_action_background = 2131165319;
+			public const int mtrl_tabs_default_indicator = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg = 2131165320;
+			public const int navigation_empty_icon = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_low = 2131165321;
+			public const int notification_action_background = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_bg_low_normal = 2131165322;
+			public const int notification_bg = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_bg_low_pressed = 2131165323;
+			public const int notification_bg_low = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_bg_normal = 2131165324;
+			public const int notification_bg_low_normal = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_bg_normal_pressed = 2131165325;
+			public const int notification_bg_low_pressed = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notification_icon_background = 2131165326;
+			public const int notification_bg_normal = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int notification_template_icon_bg = 2131165327;
+			public const int notification_bg_normal_pressed = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int notification_template_icon_low_bg = 2131165328;
+			public const int notification_icon_background = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int notification_tile_bg = 2131165329;
+			public const int notification_template_icon_bg = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int notify_panel_notification_icon_bg = 2131165330;
+			public const int notification_template_icon_low_bg = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int numeral = 2131165331;
+			public const int notification_tile_bg = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int peliculas = 2131165332;
+			public const int notify_panel_notification_icon_bg = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int preference_list_divider_material = 2131165333;
+			public const int numeral = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int salir = 2131165334;
+			public const int peliculas = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int test_custom_background = 2131165335;
+			public const int preference_list_divider_material = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int tooltip_frame_dark = 2131165336;
+			public const int salir = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int tooltip_frame_light = 2131165337;
+			public const int test_custom_background = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ubicacion = 2131165338;
+			public const int tooltip_frame_dark = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ubicacionMenu = 2131165339;
+			public const int tooltip_frame_light = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int usuario = 2131165340;
+			public const int ubicacion = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int ubicacionMenu = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int usuario = 2131165342;
 			
 			static Drawable()
 			{
@@ -20903,223 +22832,226 @@ namespace Cinepolis.Droid
 			public const int fallback_menu_item_share_link = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int hide_bottom_view_on_scroll_behavior = 2131623982;
+			public const int hello = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int icon_content_description = 2131623983;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int item_view_role_description = 2131623984;
+			public const int icon_content_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_display_divider = 2131623985;
+			public const int item_view_role_description = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_clock_toggle_content_description = 2131623986;
+			public const int material_clock_display_divider = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_selection = 2131623987;
+			public const int material_clock_toggle_content_description = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_hour_suffix = 2131623988;
+			public const int material_hour_selection = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_selection = 2131623989;
+			public const int material_hour_suffix = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_minute_suffix = 2131623990;
+			public const int material_minute_selection = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_accelerated = 2131623991;
+			public const int material_minute_suffix = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_decelerated = 2131623992;
+			public const int material_motion_easing_accelerated = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_emphasized = 2131623993;
+			public const int material_motion_easing_decelerated = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_linear = 2131623994;
+			public const int material_motion_easing_emphasized = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_motion_easing_standard = 2131623995;
+			public const int material_motion_easing_linear = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_end = 2131623996;
+			public const int material_motion_easing_standard = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_slider_range_start = 2131623997;
+			public const int material_slider_range_end = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_am = 2131623998;
+			public const int material_slider_range_start = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_clock_mode_description = 2131623999;
+			public const int material_timepicker_am = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_hour = 2131624000;
+			public const int material_timepicker_clock_mode_description = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_minute = 2131624001;
+			public const int material_timepicker_hour = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_pm = 2131624002;
+			public const int material_timepicker_minute = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_select_time = 2131624003;
+			public const int material_timepicker_pm = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int material_timepicker_text_input_mode_description = 2131624004;
+			public const int material_timepicker_select_time = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_badge_numberless_content_description = 2131624005;
+			public const int material_timepicker_text_input_mode_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_chip_close_icon_content_description = 2131624006;
+			public const int mtrl_badge_numberless_content_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624007;
+			public const int mtrl_chip_close_icon_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624008;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_next_month = 2131624009;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_a11y_prev_month = 2131624010;
+			public const int mtrl_picker_a11y_next_month = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_announce_current_selection = 2131624011;
+			public const int mtrl_picker_a11y_prev_month = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_cancel = 2131624012;
+			public const int mtrl_picker_announce_current_selection = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_confirm = 2131624013;
+			public const int mtrl_picker_cancel = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_selected = 2131624014;
+			public const int mtrl_picker_confirm = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_title = 2131624015;
+			public const int mtrl_picker_date_header_selected = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_date_header_unselected = 2131624016;
+			public const int mtrl_picker_date_header_title = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_day_of_week_column_header = 2131624017;
+			public const int mtrl_picker_date_header_unselected = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format = 2131624018;
+			public const int mtrl_picker_day_of_week_column_header = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_example = 2131624019;
+			public const int mtrl_picker_invalid_format = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_format_use = 2131624020;
+			public const int mtrl_picker_invalid_format_example = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_invalid_range = 2131624021;
+			public const int mtrl_picker_invalid_format_use = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_navigate_to_year_description = 2131624022;
+			public const int mtrl_picker_invalid_range = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_out_of_range = 2131624023;
+			public const int mtrl_picker_navigate_to_year_description = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_end_selected = 2131624024;
+			public const int mtrl_picker_out_of_range = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_only_start_selected = 2131624025;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_selected = 2131624026;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_title = 2131624027;
+			public const int mtrl_picker_range_header_selected = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_range_header_unselected = 2131624028;
+			public const int mtrl_picker_range_header_title = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_save = 2131624029;
+			public const int mtrl_picker_range_header_unselected = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_hint = 2131624030;
+			public const int mtrl_picker_save = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624031;
+			public const int mtrl_picker_text_input_date_hint = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624032;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_day_abbr = 2131624033;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_month_abbr = 2131624034;
+			public const int mtrl_picker_text_input_day_abbr = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_text_input_year_abbr = 2131624035;
+			public const int mtrl_picker_text_input_month_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624036;
+			public const int mtrl_picker_text_input_year_abbr = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_day_selection = 2131624037;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624038;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int mtrl_picker_toggle_to_year_selection = 2131624039;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_navigate_up_description = 2131624040;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int nav_app_bar_open_drawer_description = 2131624041;
+			public const int nav_app_bar_navigate_up_description = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int not_set = 2131624042;
+			public const int nav_app_bar_open_drawer_description = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int overflow_tab_title = 2131624043;
+			public const int not_set = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int password_toggle_content_description = 2131624044;
+			public const int overflow_tab_title = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye = 2131624045;
+			public const int password_toggle_content_description = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_strike_through = 2131624046;
+			public const int path_password_eye = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_eye_mask_visible = 2131624047;
+			public const int path_password_eye_mask_strike_through = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int path_password_strike_through = 2131624048;
+			public const int path_password_eye_mask_visible = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int preference_copied = 2131624049;
+			public const int path_password_strike_through = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int search_menu_title = 2131624050;
+			public const int preference_copied = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int status_bar_notification_info_overflow = 2131624051;
+			public const int search_menu_title = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int summary_collapsed_preference_list = 2131624052;
+			public const int status_bar_notification_info_overflow = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_off = 2131624053;
+			public const int summary_collapsed_preference_list = 2131624053;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int v7_preference_on = 2131624054;
+			public const int v7_preference_off = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int v7_preference_on = 2131624055;
 			
 			static String()
 			{

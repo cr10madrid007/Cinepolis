@@ -10,7 +10,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="Cinepolis.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/r" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:usesCleartextTraffic="True" android:label="Cinepolis.Android" android:theme="@style/MainTheme" android:name="crc64cc3626d3e1fedb3e.MainActivity" android:allowBackup="true" android:icon="@mipmap/r" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/r" android:label="Cinepolis" android:theme="@style/MainTheme" android:name="crc64a596d6dbdcf5b1a5.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

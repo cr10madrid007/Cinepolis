@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
+             x:Class="Cinepolis.vMenu.horarios" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout >
+            <Label Text="Selecciona tu Horario preferido" FontSize="Title" TextColor="Black" FontAttributes="Bold" Margin="0,20,0,5" HorizontalTextAlignment="Center"/>
+            <RadioButton  TextColor="Black" x:Name="rbTres" CheckedChanged="rbTres_CheckedChanged" Content="15:00"
+             GroupName="colors" />
+            <RadioButton  TextColor="Black" x:Name="rbCinco" CheckedChanged="rbCinco_CheckedChanged" Content="17:00"
+             GroupName="colors" />
+            <RadioButton  TextColor="Black" x:Name="rbSiete" CheckedChanged="rbSiete_CheckedChanged" Content="19:00"
+             GroupName="colors" />
+            
+            
+            
+                <Button Text="Atras"  BackgroundColor="HotPink" x:Name="btnAtras"  Clicked="btnAtras_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>
+               
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

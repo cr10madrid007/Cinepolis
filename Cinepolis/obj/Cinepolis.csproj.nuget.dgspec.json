@@ -66,9 +66,13 @@
               "target": "Package",
               "version": "[3.2.0.1, )"
             },
+            "Xam.Forms.VideoPlayer": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.1, )"
+              "version": "[1.7.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

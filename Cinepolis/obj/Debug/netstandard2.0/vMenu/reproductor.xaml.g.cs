@@ -17,12 +17,16 @@ namespace Cinepolis.vMenu {
     public partial class reproductor : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::LibVLCSharp.Forms.Shared.MediaPlayerElement myVideo;
+        private global::Xam.Forms.VideoPlayer.VideoPlayer videoPlayer;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button CloseButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(reproductor));
-            myVideo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::LibVLCSharp.Forms.Shared.MediaPlayerElement>(this, "myVideo");
+            videoPlayer = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xam.Forms.VideoPlayer.VideoPlayer>(this, "videoPlayer");
+            CloseButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "CloseButton");
         }
     }
 }

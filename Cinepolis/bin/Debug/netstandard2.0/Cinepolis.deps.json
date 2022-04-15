@@ -14,7 +14,8 @@
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
           "VideoLAN.LibVLC.Android": "3.2.0.1",
-          "Xamarin.Essentials": "1.7.1",
+          "Xam.Forms.VideoPlayer": "1.0.8",
+          "Xamarin.Essentials": "1.7.2",
           "Xamarin.Forms": "5.0.0.2401",
           "sqlite-net-pcl": "1.8.116"
         },
@@ -149,7 +150,18 @@
         }
       },
       "VideoLAN.LibVLC.Android/3.2.0.1": {},
-      "Xamarin.Essentials/1.7.1": {
+      "Xam.Forms.VideoPlayer/1.0.8": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2401"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xam.Forms.VideoPlayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Essentials/1.7.2": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -289,12 +301,19 @@
       "path": "videolan.libvlc.android/3.2.0.1",
       "hashPath": "videolan.libvlc.android.3.2.0.1.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.7.1": {
+    "Xam.Forms.VideoPlayer/1.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-u7pUgvHJKTYo5ATiwRZvYviq2O0AQXIqxdna+sMxqidfWpbD7FBgFOLNAZzWKSll/AQBPeDrqLAWZNLq+ztpmQ==",
-      "path": "xamarin.essentials/1.7.1",
-      "hashPath": "xamarin.essentials.1.7.1.nupkg.sha512"
+      "sha512": "sha512-hd38+Bwj5l8Q+YKLATqrWfdhDNCATbqw2qKav/8++49DgNcLQkz9yxQwH6x/BawArfu2uG6Q1N/XC7FMMSuRBA==",
+      "path": "xam.forms.videoplayer/1.0.8",
+      "hashPath": "xam.forms.videoplayer.1.0.8.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3r2QA/54YZGw6o+cBmIQdvs9nkT1SNHHvFGl1jg2bJ/INmsPdSU4ddrwhIw6zSWSIMRbemKvXEVov1KwjRk6PQ==",
+      "path": "xamarin.essentials/1.7.2",
+      "hashPath": "xamarin.essentials.1.7.2.nupkg.sha512"
     },
     "Xamarin.Forms/5.0.0.2401": {
       "type": "package",
