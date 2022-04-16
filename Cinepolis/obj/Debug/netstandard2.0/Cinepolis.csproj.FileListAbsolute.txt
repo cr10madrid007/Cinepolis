@@ -23,3 +23,4 @@ C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\p
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\reproductor.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\horarios.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\silla.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\pagarEntrada.xaml.g.cs

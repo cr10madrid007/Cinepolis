@@ -7,6 +7,7 @@
         <StackLayout>
             <Label Text="Selecciona tus asientos" FontSize="Title" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,15,0,0"/>
             <Label Text="Asientos seleccionados: 0" HorizontalTextAlignment="End" TextColor="Black" Margin="0,0,15,0" x:Name="lblCantidad"/>
+            <Label Text="Precio por asiento: L 100.00" HorizontalTextAlignment="End" TextColor="Black" Margin="0,0,15,0" />
 
             <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="White" >
                 

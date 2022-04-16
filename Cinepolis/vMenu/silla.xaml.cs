@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,9 +24,69 @@ namespace Cinepolis.vMenu
         int cbtn36 = 0, cbtn37 = 0, cbtn38 = 0, cbtn39 = 0, cbtn40 = 0;
 
         int contador = 0;
+        string id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, banner__, video__, hora__;
+
         public silla(string id_, string nombre_, string synopsis_, string anio_, string clasificacion_, string genero_, string director_, string duracion_, string video_, string banner_,string hora_)
         {
             InitializeComponent();
+
+            id__ = id_;
+            nombre__ = nombre_;
+            synopsis__ = synopsis_;
+            anio__ = anio_;
+            clasificacion__ = clasificacion_;
+            genero__ = genero_;
+            director__ = director_;
+            duracion__ = duracion_;
+            banner__ = banner_;
+            video__ = video_;
+            hora__ = hora_;
+
+
+
+            consuta1();
+            consuta2();
+            consuta3();
+            consuta4();
+            consuta5();
+            consuta6();
+            consuta7();
+            consuta8();
+            consuta9();
+            consuta10();
+
+            consuta11();
+            consuta12();
+            consuta13();
+            consuta14();
+            consuta15();
+            consuta16();
+            consuta17();
+            consuta18();
+            consuta19();
+            consuta20();
+
+            consuta21();
+            consuta22();
+            consuta23();
+            consuta24();
+            consuta25();
+            consuta26();
+            consuta27();
+            consuta28();
+            consuta29();
+            consuta30();
+
+            consuta31();
+            consuta32();
+            consuta33();
+            consuta34();
+            consuta35();
+            consuta36();
+            consuta37();
+            consuta38();
+            consuta39();
+            consuta40();
         }
 
         private void btn1_Clicked(object sender, EventArgs e)
@@ -182,15 +244,6 @@ namespace Cinepolis.vMenu
             contadorF();
         }
 
-        private void btnAtras_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnContinuar_Clicked(object sender, EventArgs e)
-        {
-
-        }
 
         private void btn10_Clicked(object sender, EventArgs e)
         {
@@ -722,6 +775,1592 @@ namespace Cinepolis.vMenu
         void contadorF()
         {
             lblCantidad.Text = "Asientos seleccionados: " + contador;
+        }
+
+      
+
+
+        async void consuta1()
+        {
+           
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("1");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn1.IsEnabled=false;
+                btn1.BackgroundColor=Color.LightBlue;
+                btn1.TextColor=Color.Black;
+            }
+            else if(rsp.Equals("no"))
+            {
+                btn1.IsEnabled=true;
+            }
+
+        }
+
+        async void consuta2()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("2");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn2.IsEnabled = false;
+                btn2.BackgroundColor = Color.LightBlue;
+                btn2.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn2.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta3()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("3");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn3.IsEnabled = false;
+                btn3.BackgroundColor = Color.LightBlue;
+                btn3.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn3.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta4()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("4");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn4.IsEnabled = false;
+                btn4.BackgroundColor = Color.LightBlue;
+                btn4.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn4.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta5()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("5");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn5.IsEnabled = false;
+                btn5.BackgroundColor = Color.LightBlue;
+                btn5.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn5.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta6()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("6");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn6.IsEnabled = false;
+                btn6.BackgroundColor = Color.LightBlue;
+                btn6.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn6.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta7()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("7");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn7.IsEnabled = false;
+                btn7.BackgroundColor = Color.LightBlue;
+                btn7.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn7.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta8()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("8");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn8.IsEnabled = false;
+                btn8.BackgroundColor = Color.LightBlue;
+                btn8.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn8.IsEnabled = true;
+            }
+
+        }
+        async void consuta9()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("9");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn9.IsEnabled = false;
+                btn9.BackgroundColor = Color.LightBlue;
+                btn9.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn9.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta10()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("10");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn10.IsEnabled = false;
+                btn10.BackgroundColor = Color.LightBlue;
+                btn10.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn10.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta11()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("11");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn11.IsEnabled = false;
+                btn11.BackgroundColor = Color.LightBlue;
+                btn11.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn11.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta12()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("12");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn12.IsEnabled = false;
+                btn12.BackgroundColor = Color.LightBlue;
+                btn12.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn12.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta13()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("13");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn13.IsEnabled = false;
+                btn13.BackgroundColor = Color.LightBlue;
+                btn13.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn13.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta14()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("14");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn14.IsEnabled = false;
+                btn14.BackgroundColor = Color.LightBlue;
+                btn14.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn14.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta15()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("15");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn15.IsEnabled = false;
+                btn15.BackgroundColor = Color.LightBlue;
+                btn15.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn15.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta16()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("16");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn16.IsEnabled = false;
+                btn16.BackgroundColor = Color.LightBlue;
+                btn16.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn16.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta17()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("17");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn17.IsEnabled = false;
+                btn17.BackgroundColor = Color.LightBlue;
+                btn17.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn17.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta18()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("18");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn18.IsEnabled = false;
+                btn18.BackgroundColor = Color.LightBlue;
+                btn18.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn18.IsEnabled = true;
+            }
+
+        }
+        async void consuta19()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("19");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn19.IsEnabled = false;
+                btn19.BackgroundColor = Color.LightBlue;
+                btn19.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn19.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta20()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("20");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn20.IsEnabled = false;
+                btn20.BackgroundColor = Color.LightBlue;
+                btn20.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn20.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta21()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("21");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn21.IsEnabled = false;
+                btn21.BackgroundColor = Color.LightBlue;
+                btn21.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn21.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta22()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("22");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn22.IsEnabled = false;
+                btn22.BackgroundColor = Color.LightBlue;
+                btn22.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn22.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta23()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("23");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn23.IsEnabled = false;
+                btn23.BackgroundColor = Color.LightBlue;
+                btn23.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn23.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta24()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("24");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn24.IsEnabled = false;
+                btn24.BackgroundColor = Color.LightBlue;
+                btn24.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn24.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta25()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("25");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn25.IsEnabled = false;
+                btn25.BackgroundColor = Color.LightBlue;
+                btn25.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn25.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta26()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("26");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn26.IsEnabled = false;
+                btn26.BackgroundColor = Color.LightBlue;
+                btn26.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn26.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta27()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("27");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn27.IsEnabled = false;
+                btn27.BackgroundColor = Color.LightBlue;
+                btn27.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn27.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta28()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("28");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn28.IsEnabled = false;
+                btn28.BackgroundColor = Color.LightBlue;
+                btn28.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn28.IsEnabled = true;
+            }
+
+        }
+        async void consuta29()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("29");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn29.IsEnabled = false;
+                btn29.BackgroundColor = Color.LightBlue;
+                btn29.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn29.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta30()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("30");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn30.IsEnabled = false;
+                btn30.BackgroundColor = Color.LightBlue;
+                btn30.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn30.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta31()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("31");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn31.IsEnabled = false;
+                btn31.BackgroundColor = Color.LightBlue;
+                btn31.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn31.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta32()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("32");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn32.IsEnabled = false;
+                btn32.BackgroundColor = Color.LightBlue;
+                btn32.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn32.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta33()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("33");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn33.IsEnabled = false;
+                btn33.BackgroundColor = Color.LightBlue;
+                btn33.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn33.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta34()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("34");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn34.IsEnabled = false;
+                btn34.BackgroundColor = Color.LightBlue;
+                btn34.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn34.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta35()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("35");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn35.IsEnabled = false;
+                btn35.BackgroundColor = Color.LightBlue;
+                btn35.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn35.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta36()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("36");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn36.IsEnabled = false;
+                btn36.BackgroundColor = Color.LightBlue;
+                btn36.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn36.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta37()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("37");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn37.IsEnabled = false;
+                btn37.BackgroundColor = Color.LightBlue;
+                btn37.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn37.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta38()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("38");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn38.IsEnabled = false;
+                btn38.BackgroundColor = Color.LightBlue;
+                btn38.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn38.IsEnabled = true;
+            }
+
+        }
+        async void consuta39()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("39");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn39.IsEnabled = false;
+                btn39.BackgroundColor = Color.LightBlue;
+                btn39.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn39.IsEnabled = true;
+            }
+
+        }
+
+        async void consuta40()
+        {
+
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent idC = new StringContent(id__);
+            StringContent horaC = new StringContent(hora__);
+            StringContent nSilla = new StringContent("40");
+            parametros.Add(idC, "id");
+            parametros.Add(horaC, "hora");
+            parametros.Add(nSilla, "nSilla");
+
+            var rsp = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                rsp = respuesta.Content.ReadAsStringAsync().Result;
+
+            }
+            if (rsp.Equals("si"))
+            {
+                btn40.IsEnabled = false;
+                btn40.BackgroundColor = Color.LightBlue;
+                btn40.TextColor = Color.Black;
+            }
+            else if (rsp.Equals("no"))
+            {
+                btn40.IsEnabled = true;
+            }
+
+        }
+
+
+
+
+
+        async private void btnContinuar_Clicked(object sender, EventArgs e)
+        {
+            int[] a;
+            a = new int[40];
+            a[0] = cbtn1;
+            a[1] = cbtn2;
+            a[2] = cbtn3;
+            a[3] = cbtn4;
+            a[4] = cbtn5;
+            a[5] = cbtn6;
+            a[6] = cbtn7;
+            a[7] = cbtn8;
+            a[8] = cbtn9;
+            a[9] = cbtn10;
+            a[10] = cbtn11;
+            a[11] = cbtn12;
+            a[12] = cbtn13;
+            a[13] = cbtn14;
+            a[14] = cbtn15;
+            a[15] = cbtn16;
+            a[16] = cbtn17;
+            a[17] = cbtn18;
+            a[18] = cbtn19;
+            a[19] = cbtn20;
+            a[20] = cbtn21;
+            a[21] = cbtn22;
+            a[22] = cbtn23;
+            a[23] = cbtn24;
+            a[24] = cbtn25;
+            a[25] = cbtn26;
+            a[26] = cbtn27;
+            a[27] = cbtn28;
+            a[28] = cbtn29;
+            a[29] = cbtn30;
+            a[30] = cbtn31;
+            a[31] = cbtn32;
+            a[32] = cbtn33;
+            a[33] = cbtn34;
+            a[34] = cbtn35;
+            a[35] = cbtn36;
+            a[36] = cbtn37;
+            a[37] = cbtn38;
+            a[38] = cbtn39;
+            a[39] = cbtn40;
+
+            for (int i = 0; i < 40; i++)
+            {
+                if (a[i] == 1)
+                {
+                    a[i] = i + 1;
+                }
+            }
+
+            var pagina = new pagarEntrada(id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, video__, banner__, hora__, a);
+            await Navigation.PushAsync(pagina);
+        }
+
+
+        async private void btnAtras_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
         }
     }
 }
