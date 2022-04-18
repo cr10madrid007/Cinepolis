@@ -136,44 +136,54 @@ namespace Cinepolis.vMenu
         }
 
         async private void rbSiete_CheckedChanged(object sender, CheckedChangedEventArgs e)
-        {   if (rbSiete.IsChecked == true)
+        {
+            try
             {
-                string action = await DisplayActionSheet("¿Desea seleccionar el horario de las 19:00?", "Cancel", null, "Si", "No");
-                if (action.Equals("Si"))
+                if (rbSiete.IsChecked == true)
                 {
-                    string hora__ = "19:00";
-                    var pagina = new silla(id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, video__, banner__, hora__);
-                    await Navigation.PushAsync(pagina);
+                    string action = await DisplayActionSheet("¿Desea seleccionar el horario de las 19:00?", "Cancel", null, "Si", "No");
+                    if (action.Equals("Si"))
+                    {
+                        string hora__ = "19:00";
+                        var pagina = new silla(id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, video__, banner__, hora__);
+                        await Navigation.PushAsync(pagina);
+                    }
                 }
-            }
+            }catch (Exception ex) { }
         }
 
         async private void rbCinco_CheckedChanged(object sender, CheckedChangedEventArgs e)
         {
-            if (rbCinco.IsChecked == true)
+            try
             {
-                string action = await DisplayActionSheet("¿Desea seleccionar el horario de las 17:00?", "Cancel", null, "Si", "No");
-                if (action.Equals("Si"))
+                if (rbCinco.IsChecked == true)
                 {
-                    string hora__ = "17:00";
-                    var pagina = new silla(id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, video__, banner__, hora__);
-                    await Navigation.PushAsync(pagina);
+                    string action = await DisplayActionSheet("¿Desea seleccionar el horario de las 17:00?", "Cancel", null, "Si", "No");
+                    if (action.Equals("Si"))
+                    {
+                        string hora__ = "17:00";
+                        var pagina = new silla(id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, video__, banner__, hora__);
+                        await Navigation.PushAsync(pagina);
+                    }
                 }
-            }
+            }catch(Exception ex) { }
         }
 
         async private void rbTres_CheckedChanged(object sender, CheckedChangedEventArgs e)
         {
-            if (rbTres.IsChecked == true)
+            try
             {
-                string action = await DisplayActionSheet("¿Desea seleccionar el horario de las 15:00?", "Cancel", null, "Si", "No");
-                if (action.Equals("Si"))
+                if (rbTres.IsChecked == true)
                 {
-                    string hora__ = "15:00";
-                    var pagina = new silla(id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, video__, banner__, hora__);
-                    await Navigation.PushAsync(pagina);
+                    string action = await DisplayActionSheet("¿Desea seleccionar el horario de las 15:00?", "Cancel", null, "Si", "No");
+                    if (action.Equals("Si"))
+                    {
+                        string hora__ = "15:00";
+                        var pagina = new silla(id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, video__, banner__, hora__);
+                        await Navigation.PushAsync(pagina);
+                    }
                 }
-            }
+            }catch (Exception ex) { }
         }
 
         
