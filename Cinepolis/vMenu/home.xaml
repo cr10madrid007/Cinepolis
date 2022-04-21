@@ -21,13 +21,13 @@
             <Label Text="Golosinas" FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
             
         </StackLayout>
-
-        <StackLayout Grid.Row="1"  Grid.Column="0" Padding="25" BackgroundColor="LemonChiffon" >
+        
+        <StackLayout Grid.Row="2"  Grid.Column="0" Padding="25" BackgroundColor="LemonChiffon" >
             <StackLayout.GestureRecognizers>
                 <TapGestureRecognizer x:Name="slUbicacion" Tapped="slUbicacion_Tapped" />
             </StackLayout.GestureRecognizers>
-            <Image Source="ubicacion.png" WidthRequest="150" HeightRequest="150" />
-            <Label Text="Ubicacion" FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Image Source="as.png" WidthRequest="150" HeightRequest="150" />
+            <Label Text="Acerca de Nosotros" FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
         </StackLayout>
 
         <StackLayout Grid.Row="1"  Grid.Column="1" Padding="25" BackgroundColor="LightCyan" >
@@ -38,7 +38,7 @@
             <Label Text="Usuario" FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
         </StackLayout>
 
-        <StackLayout Grid.Row="2"  Grid.Column="0" Padding="25" BackgroundColor="LightGray" >
+        <StackLayout Grid.Row="1"  Grid.Column="0" Padding="25" BackgroundColor="LightGray" >
             <StackLayout.GestureRecognizers>
                 <TapGestureRecognizer x:Name="slHistorial" Tapped="slHistorial_Tapped" />
             </StackLayout.GestureRecognizers>

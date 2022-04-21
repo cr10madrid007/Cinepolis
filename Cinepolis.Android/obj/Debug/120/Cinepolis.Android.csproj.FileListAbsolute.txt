@@ -722,3 +722,7 @@ C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawab
 C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\androidx\jl\e3e9c426-d431-4396-9707-d2b9b084d0ed.jar
 C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\androidx\proguard\42050dd3-0fc0-4859-ba16-18b615feba97.txt
 C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\androidx\proguard\467258f8-7687-40a9-b97d-5268b2e4ce88.cfg
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\acercanosotros.jpg
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\coding.jpg
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\an.png
+C:\Users\crist\source\repos\Cinepolis\Cinepolis.Android\obj\Debug\120\res\drawable\as.png

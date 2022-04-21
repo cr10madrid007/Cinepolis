@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cinepolis.vMenu.Nosotros" >
+
+    <StackLayout BackgroundColor="#e6e6e6">
+        <Grid>
+            <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                <Frame HeightRequest="150" BackgroundColor="HotPink" Padding="0" Margin="0">
+                    <Image Source="cinepolis.png" Aspect="AspectFill" Margin="0"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout Padding="0" Margin="10,100,10,0" HorizontalOptions="FillAndExpand">
+                <Frame  BackgroundColor="White" HeightRequest="500" HasShadow="True" Padding="0" Margin="0">
+
+                    <StackLayout>
+
+
+                        <StackLayout Margin="10">
+                            <Label Text="CINEPOLIS" TextColor="Black" HorizontalOptions="CenterAndExpand" FontSize="Title" FontAttributes="Bold"/>
+                        </StackLayout>
+
+                        <StackLayout Padding="0" Margin="15,10">
+
+                            <Label x:Name="lblTexto" TextColor="Black"/>
+                            <Label x:Name="lblTexto2" TextColor="Black"/>
+
+
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

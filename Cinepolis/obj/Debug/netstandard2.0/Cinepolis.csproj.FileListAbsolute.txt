@@ -29,3 +29,6 @@ C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\a
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\carrito.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\carritoCompra.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\comidaQR.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\registro.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\registroQR.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\Nosotros.xaml.g.cs

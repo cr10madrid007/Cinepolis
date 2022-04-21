@@ -63,7 +63,7 @@ namespace Cinepolis.vMenu
             var direc = new Clases.ruta();
             String direccion = direc.ruta_();
             direccion = direccion + "Cinepolis/tclientes/insertarCompra.php";
-            
+            string dato = lblGolosinas.Text + " y su total pagado es de L. " + lblTp.Text + ".00";
             MultipartFormDataContent parametros = new MultipartFormDataContent();
             StringContent email = new StringContent(lblCorreoComprador.Text);
             StringContent idP = new StringContent("0");
@@ -87,7 +87,7 @@ namespace Cinepolis.vMenu
                 Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
 
                 nt = respuesta.Content.ReadAsStringAsync().Result;
-
+                correo(dato);
                 var pagina = new comidaQR(nt);
                 await Navigation.PushAsync(pagina);
 
@@ -190,6 +190,37 @@ namespace Cinepolis.vMenu
                 }
             }
             catch (Exception ex) { }
+        }
+
+
+        async void correo(string txt)
+        {
+            
+            string sf = lblFecha.Text;
+            var direc = new Clases.ruta();
+            String direccion = direc.ruta_();
+            direccion = direccion + "Cinepolis/tclientes/compraPelicula.php";
+
+            MultipartFormDataContent parametros = new MultipartFormDataContent();
+            StringContent email = new StringContent(lblCorreoComprador.Text);
+            StringContent msj = new StringContent(txt);
+
+
+            parametros.Add(email, "correo");
+            parametros.Add(msj, "msj");
+
+
+            var nt = "";
+            using (HttpClient client = new HttpClient())
+            {
+                var respuesta = await client.PostAsync(direccion, parametros);
+
+                Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
+
+                nt = respuesta.Content.ReadAsStringAsync().Result;
+
+
+            }
         }
     }
 }

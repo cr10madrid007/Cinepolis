@@ -2,6 +2,7 @@
 using Cinepolis.Models;
 using System;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using Xamarin.Forms;
@@ -20,15 +21,28 @@ namespace Cinepolis
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            var datos = await App.BaseDatos.listaempleados();
-            int n = datos.Count();
-            if (n == 1)
+            
+           
+
+            try { 
+                var datos = await App.BaseDatos.listaempleados();
+                int n = datos.Count();
+                    if (n == 1)
+                    {
+                        var pagina = new vMenu.home();
+                        await Navigation.PushAsync(pagina);
+                    }
+
+            }
+            catch (Exception ex)
             {
-                var pagina = new vMenu.home();
-                await Navigation.PushAsync(pagina);
-
-
-
+                var datos = await App.BaseDatos.listaempleados();
+                int n = datos.Count();
+                if (n == 1)
+                {
+                    var pagina = new vMenu.home();
+                    await Navigation.PushAsync(pagina);
+                }
             }
 
 

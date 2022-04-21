@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" BackgroundColor="White"
+             x:Class="Cinepolis.vMenu.registro" NavigationPage.HasNavigationBar="False">
+    <ListView  BackgroundColor="White"  x:Name="ListaEmpleados" ItemSelected="ListaEmpleados_ItemSelected" RowHeight="300">
+        <ListView.ItemTemplate >
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout  Padding="10" Margin="0,2,0,2" >
+
+                        <StackLayout >
+                            <Label  Text="Descripción: " FontAttributes="Bold" TextColor="Black"/>
+                            <Label  Text="{Binding descripcion}" TextColor="Black" />
+                        </StackLayout>
+
+
+                        
+
+                        <Grid >
+                            <Label Grid.Column="0" Text="Codigo de Compra: " FontAttributes="Bold" TextColor="Black"/>
+                            <Label Grid.Column="1" Text="{Binding idCompra}" TextColor="Black" />
+                            </Grid>
+
+                            <Grid >
+                            <Label Grid.Column="0" Text="Fecha: " FontAttributes="Bold" TextColor="Black"/>
+                            <Label Grid.Column="1" Text="{Binding fecha}" TextColor="Black" />
+                                
+                            </Grid>
+
+                            <Grid >
+                            <Label Grid.Column="0" Text="Total Pagado: " FontAttributes="Bold" TextColor="Black"/>
+                            <Label Grid.Column="1" Text="{Binding tap}" TextColor="Black" />
+                            </Grid>
+
+                            <Grid >
+                            <Label Grid.Column="0" Text="Lugar: " FontAttributes="Bold" TextColor="Black"/>
+                            <Label Grid.Column="1" Text="{Binding lugar}" TextColor="Black" />
+                            </Grid>
+
+
+                        
+
+
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+   
+</ContentPage>

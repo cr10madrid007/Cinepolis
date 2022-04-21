@@ -27,9 +27,10 @@ namespace Cinepolis.vMenu
             await Navigation.PushAsync(pagina);
         }
 
-        private void slUbicacion_Tapped(object sender, EventArgs e)
+        async private void slUbicacion_Tapped(object sender, EventArgs e)
         {
-
+            var pagina = new Nosotros();
+            await Navigation.PushAsync(pagina);
         }
 
         async private void slUsuario_Tapped(object sender, EventArgs e)
@@ -38,9 +39,10 @@ namespace Cinepolis.vMenu
             await Navigation.PushAsync(pagina);
         }
 
-        private void slHistorial_Tapped(object sender, EventArgs e)
+        async private void slHistorial_Tapped(object sender, EventArgs e)
         {
-
+            var pagina = new registro();
+            await Navigation.PushAsync(pagina);
         }
 
         async private void slSalir_Tapped(object sender, EventArgs e)

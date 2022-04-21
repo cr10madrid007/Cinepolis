@@ -44,5 +44,22 @@ namespace Cinepolis.Controller
             }
             return listapaises;
         }
+
+        public async static Task<List<contructorCompra.h>> ObtenerPagos(string correo)
+        {
+            var direc = new ruta();
+            String direccion = direc.ruta_();
+            List<contructorCompra.h> listapaises = new List<contructorCompra.h>();
+            using (HttpClient client = new HttpClient())
+            {
+                var response = await client.GetAsync(direccion + "Cinepolis/tclientes/vistas/seleccionarCompras.php?email="+correo);
+                if (response.IsSuccessStatusCode)
+                {
+                    var contenido = response.Content.ReadAsStringAsync().Result;
+                    listapaises = JsonConvert.DeserializeObject<List<contructorCompra.h>>(contenido);
+                }
+            }
+            return listapaises;
+        }
     }
 }
