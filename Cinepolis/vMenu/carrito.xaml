@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" BackgroundColor="White"
+             x:Class="Cinepolis.vMenu.carrito">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="¿Que tengo seleccionado?" x:Name="atras"
+                     Clicked="atras_Clicked" />
+
+        <ToolbarItem Text="Comprar" x:Name="compar"
+                     Clicked="compar_Clicked" />
+
+
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+
+            <StackLayout Grid.Row="0" Grid.Column="0" Padding="25" BackgroundColor="LightSteelBlue">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="slCb1" />
+                </StackLayout.GestureRecognizers>
+                <Image Source="cb1.jpg" WidthRequest="150" HeightRequest="200" />
+                <Label Text="Combo. Palomitas de maíz + dos refrescos (L. 120)" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+                <Label Text="Cantidad: 0" x:Name="cantidadCb1"/>
+                <Slider MinimumTrackColor="Black" ThumbColor="DarkSlateGray" Minimum="0" Maximum="10" Value="1" x:Name="sliderCb1" ValueChanged="sliderCb1_ValueChanged"/>
+                
+
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="0"  Grid.Column="1" Padding="25" BackgroundColor="LightYellow" >
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="slCb2" />
+                </StackLayout.GestureRecognizers>
+                <Image Source="cb2.jpg" WidthRequest="150" HeightRequest="200" />
+                <Label Text="Combo palomitas de maíz + un refresco (L. 95)"  FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+                <Label Text="Cantidad: 0" x:Name="cantidadCb2"/>
+                <Slider MinimumTrackColor="Black" ThumbColor="DarkSlateGray" Minimum="0" Maximum="10" Value="1" x:Name="sliderCb2" ValueChanged="sliderCb2_ValueChanged"/>
+               
+            </StackLayout>
+
+            <StackLayout Grid.Row="1"  Grid.Column="0" Padding="25" BackgroundColor="LemonChiffon" >
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="slcb3"  />
+                </StackLayout.GestureRecognizers>
+                <Image Source="cb3.jpg" WidthRequest="150" HeightRequest="200" />
+                <Label Text="Combo nachos + un refresco (L. 100) "  FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+                <Label Text="Cantidad: 0" x:Name="cantidadCb3"/>
+                <Slider MinimumTrackColor="Black" ThumbColor="DarkSlateGray" Minimum="0" Maximum="10" Value="1" x:Name="sliderCb3" ValueChanged="sliderCb3_ValueChanged"/>
+                
+            </StackLayout>
+
+            <StackLayout Grid.Row="1"  Grid.Column="1" Padding="25" BackgroundColor="LightCyan" >
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="slC4"  />
+                </StackLayout.GestureRecognizers>
+                <Image Source="cb4.jpg" WidthRequest="150" HeightRequest="200" />
+                <Label Text="Refresco adicional tiene un costo de 35"  FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
+                <Label Text="Cantidad: 0" x:Name="cantidadCb4"/>
+                <Slider MinimumTrackColor="Black" ThumbColor="DarkSlateGray" Minimum="0" Maximum="10" Value="1" x:Name="sliderCb4" ValueChanged="sliderCb4_ValueChanged"/>
+                
+            </StackLayout>
+
+            
+            
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

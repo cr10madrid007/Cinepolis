@@ -1,12 +1,7 @@
 ﻿using Cinepolis.Clases;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Net;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,7 +11,7 @@ namespace Cinepolis.aUsuarios
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class OlvidoContraseña : ContentPage
     {
-        String correo = "",  a="";
+        String correo = "", a = "";
         public OlvidoContraseña()
         {
             InitializeComponent();
@@ -35,7 +30,7 @@ namespace Cinepolis.aUsuarios
                 await Navigation.PushAsync(pagina);
                 */
 
-               
+
                 btnContinuar.IsVisible = false;
                 fCorreo.IsVisible = false;
 
@@ -49,7 +44,7 @@ namespace Cinepolis.aUsuarios
 
                 numeroRand();
 
-                
+
             }
 
         }
@@ -59,7 +54,8 @@ namespace Cinepolis.aUsuarios
             if (String.IsNullOrWhiteSpace(txtContra.Text))
             {
                 await DisplayAlert("Error", "Es necesario llenar los campos", "OK");
-            }else
+            }
+            else
             {
 
                 var direc = new ruta();
@@ -100,7 +96,7 @@ namespace Cinepolis.aUsuarios
             }
             else
             {
-                await DisplayAlert("Error","Codigo Invalido","OK");
+                await DisplayAlert("Error", "Codigo Invalido", "OK");
             }
 
         }
@@ -117,7 +113,7 @@ namespace Cinepolis.aUsuarios
 
                 a = Convert.ToString(rnd.Next(9999));
             }
-            
+
             var direc = new ruta();
             String direccion = direc.ruta_();
             direccion = direccion + "Cinepolis/tclientes/verificarCorreo.php";
@@ -133,7 +129,7 @@ namespace Cinepolis.aUsuarios
                 var respuesta = await client.PostAsync(direccion, parametros);
 
                 Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
-    
+
             }
 
         }

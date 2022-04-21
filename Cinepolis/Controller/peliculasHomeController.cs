@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Cinepolis.Clases;
 using Cinepolis.Models;
-using System.Threading.Tasks;
-using System.Net.Http;
 using Newtonsoft.Json;
-using Cinepolis.Clases;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
 namespace Cinepolis.Controller
 {
     public class peliculasHomeController
@@ -17,7 +16,7 @@ namespace Cinepolis.Controller
             List<ApiPeliculasHome.ph> listapaises = new List<ApiPeliculasHome.ph>();
             using (HttpClient client = new HttpClient())
             {
-                var response = await client.GetAsync(direccion+ "Cinepolis/tclientes/vistas/vPeliculasHomeTegus.php");
+                var response = await client.GetAsync(direccion + "Cinepolis/tclientes/vistas/vPeliculasHomeTegus.php");
                 if (response.IsSuccessStatusCode)
                 {
                     var contenido = response.Content.ReadAsStringAsync().Result;

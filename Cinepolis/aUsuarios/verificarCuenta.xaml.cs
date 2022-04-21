@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Cinepolis.Clases;
+using System;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Cinepolis.Clases;
 
 
 
@@ -16,8 +11,8 @@ namespace Cinepolis.aUsuarios
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class verificarCuenta : ContentPage
     {
-        String a = "",nombre,apellido,correo,pass,ciudad,nombret,numerot,fechat,codigot;
-        public verificarCuenta(String nombre_, String apellido_,String correo_, String pass_, String ciudad_, String nombreT_, String numerot_, String fechat_, String codigot_)
+        String a = "", nombre, apellido, correo, pass, ciudad, nombret, numerot, fechat, codigot;
+        public verificarCuenta(String nombre_, String apellido_, String correo_, String pass_, String ciudad_, String nombreT_, String numerot_, String fechat_, String codigot_)
         {
             InitializeComponent();
             generarCodigo(correo_);
@@ -25,7 +20,7 @@ namespace Cinepolis.aUsuarios
             apellido = apellido_;
             correo = correo_;
             pass = pass_;
-            
+
             ciudad = ciudad_;
             nombret = nombreT_;
             numerot = numerot_;
@@ -35,10 +30,10 @@ namespace Cinepolis.aUsuarios
 
 
         }
-      
+
         private async void btnVerificar_Clicked(object sender, EventArgs e)
         {
-            if(txtCodigo.Text == a)
+            if (txtCodigo.Text == a)
             {
                 WebClient cliente = new WebClient();
                 var parametros = new System.Collections.Specialized.NameValueCollection();
@@ -63,9 +58,10 @@ namespace Cinepolis.aUsuarios
 
                 await Navigation.PushAsync(pagina);
 
-            } else
+            }
+            else
             {
-               await DisplayAlert("Oooops", "Codigo incorrecto.", "OK");
+                await DisplayAlert("Oooops", "Codigo incorrecto.", "OK");
             }
 
         }
@@ -85,7 +81,7 @@ namespace Cinepolis.aUsuarios
 
 
 
-      
+
 
             WebClient cliente = new WebClient();
             var parametros = new System.Collections.Specialized.NameValueCollection();
@@ -95,7 +91,7 @@ namespace Cinepolis.aUsuarios
             var direc = new ruta();
             String direccion = direc.ruta_();
             direccion = direccion + "Cinepolis/tclientes/correoRegistro.php";
-            
+
             cliente.UploadValues(direccion, "POST", parametros);
 
         }

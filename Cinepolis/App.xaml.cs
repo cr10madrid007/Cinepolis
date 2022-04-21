@@ -1,8 +1,7 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-using Cinepolis.Models;
+﻿using Cinepolis.Models;
+using System;
 using System.IO;
+using Xamarin.Forms;
 namespace Cinepolis
 {
     public partial class App : Application

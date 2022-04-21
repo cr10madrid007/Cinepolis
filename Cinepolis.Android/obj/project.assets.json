@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v12.0": {
+      "FastAndroidCamera/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid403/FastAndroidCamera.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/FastAndroidCamera.dll": {}
+        }
+      },
       "LibVLCSharp/3.6.6": {
         "type": "package",
         "frameworkAssemblies": [
@@ -171,6 +180,112 @@
           "lib/MonoAndroid81/ru/Xam.Forms.VideoPlayer.Android.resources.dll": {
             "locale": "ru"
           }
+        }
+      },
+      "Xamarin.Android.Support.Annotations/25.4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Annotations.dll": {}
+        }
+      },
+      "Xamarin.Android.Support.Compat/25.4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Annotations": "[25.4.0.2]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.Android.Support.Compat.targets": {}
+        }
+      },
+      "Xamarin.Android.Support.Core.UI/25.4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.4.0.2]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.Android.Support.Core.UI.targets": {}
+        }
+      },
+      "Xamarin.Android.Support.Core.Utils/25.4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.4.0.2]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.Android.Support.Core.Utils.targets": {}
+        }
+      },
+      "Xamarin.Android.Support.Fragment/25.4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.4.0.2]",
+          "Xamarin.Android.Support.Core.UI": "[25.4.0.2]",
+          "Xamarin.Android.Support.Core.Utils": "[25.4.0.2]",
+          "Xamarin.Android.Support.Media.Compat": "[25.4.0.2]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.Android.Support.Fragment.targets": {}
+        }
+      },
+      "Xamarin.Android.Support.Media.Compat/25.4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.4.0.2]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.Android.Support.Media.Compat.targets": {}
+        }
+      },
+      "Xamarin.Android.Support.v4/25.4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.4.0.2]",
+          "Xamarin.Android.Support.Core.UI": "[25.4.0.2]",
+          "Xamarin.Android.Support.Core.Utils": "[25.4.0.2]",
+          "Xamarin.Android.Support.Fragment": "[25.4.0.2]",
+          "Xamarin.Android.Support.Media.Compat": "[25.4.0.2]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.v4.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.v4.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.Android.Support.v4.targets": {}
         }
       },
       "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -1702,6 +1817,38 @@
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "FastAndroidCamera": "2.0.0",
+          "Xamarin.Android.Support.v4": "25.4.0.1"
+        },
+        "compile": {
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll": {},
+          "lib/MonoAndroid71/ZXingNetMobile.dll": {},
+          "lib/MonoAndroid71/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll": {},
+          "lib/MonoAndroid71/ZXingNetMobile.dll": {},
+          "lib/MonoAndroid71/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "FastAndroidCamera": "2.0.0",
+          "Xamarin.Android.Support.v4": "25.4.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll": {},
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll": {},
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "Cinepolis/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1713,6 +1860,8 @@
           "Xam.Forms.VideoPlayer": "1.0.8",
           "Xamarin.Essentials": "1.7.2",
           "Xamarin.Forms": "5.0.0.2401",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -1725,6 +1874,22 @@
     }
   },
   "libraries": {
+    "FastAndroidCamera/2.0.0": {
+      "sha512": "RQix6VHmVyQXVdP3Y4+Khw1F7HirONNCa5ubGng58gUkmSAhlS4t1Qf1Biyfakx/LjCYJ3SZ99rWSjQgV15uVQ==",
+      "type": "package",
+      "path": "fastandroidcamera/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fastandroidcamera.2.0.0.nupkg.sha512",
+        "fastandroidcamera.nuspec",
+        "lib/MonoAndroid403/FastAndroidCamera.dll",
+        "lib/MonoAndroid403/FastAndroidCamera.xml",
+        "src/CameraExtensions.cs",
+        "src/FastJavaByteArray.cs",
+        "src/FastJavaByteArrayEnumerator.cs"
+      ]
+    },
     "LibVLCSharp/3.6.6": {
       "sha512": "FVFPaVGcckbva3fEzc9+VNP3zD4KZ4eoiCEkfBe5+/BgJLDbnV9Nk9TlwqqrUxlelGL2q4gXGhXAm+gU0yDFYQ==",
       "type": "package",
@@ -2052,6 +2217,104 @@
         "lib/netstandard2.0/Xam.Forms.VideoPlayer.dll",
         "xam.forms.videoplayer.1.0.8.nupkg.sha512",
         "xam.forms.videoplayer.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Annotations/25.4.0.2": {
+      "sha512": "4Gkj6OCOJO7jn4drGZxeCCaEVHOjUu0RzsEzZaAZJzrLNqEHqoYrKwIlbsecfEpjbAcyT77Sb8wkZnZNFPdlaA==",
+      "type": "package",
+      "path": "xamarin.android.support.annotations/25.4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Annotations.dll",
+        "xamarin.android.support.annotations.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.annotations.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Compat/25.4.0.2": {
+      "sha512": "k+bZ2ArXV7x1U5xomEiCVRoWHAWr6VKhF6Ziqd1DdK4ZZ4W+J0Dsi5oR2QcQHhIodb7j7cfuDcBAEs0KYvOmuQ==",
+      "type": "package",
+      "path": "xamarin.android.support.compat/25.4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/MonoAndroid70/Xamarin.Android.Support.Compat.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll",
+        "xamarin.android.support.compat.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.compat.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Core.UI/25.4.0.2": {
+      "sha512": "RKU0D2joAnk9bawGoS1/AGg+2CurKd4uK+ToYyueNN0iJTs3K/ZvnUGck8FGl6Iy8Hfy6NySv51ubMlFSXATuA==",
+      "type": "package",
+      "path": "xamarin.android.support.core.ui/25.4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/MonoAndroid70/Xamarin.Android.Support.Core.UI.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll",
+        "proguard/proguard.txt",
+        "xamarin.android.support.core.ui.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.core.ui.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Core.Utils/25.4.0.2": {
+      "sha512": "ZF+yk8b1WVRfgmf3MNeUOVdd9Bq3EoIYsXjCW2sAouwbNsnPKyjwL91mYyVcoT5f8Sf0SL866GnBtRi14wQesQ==",
+      "type": "package",
+      "path": "xamarin.android.support.core.utils/25.4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/MonoAndroid70/Xamarin.Android.Support.Core.Utils.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll",
+        "xamarin.android.support.core.utils.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.core.utils.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Fragment/25.4.0.2": {
+      "sha512": "XBllQS9m18CvYj8Uzqr78p/9x2rUNOBMh/2PALayzXwhArCvXdE+pybzSi/+4jtcZc8w/06kWhqdXq/phrhBCw==",
+      "type": "package",
+      "path": "xamarin.android.support.fragment/25.4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/MonoAndroid70/Xamarin.Android.Support.Fragment.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll",
+        "xamarin.android.support.fragment.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.fragment.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Media.Compat/25.4.0.2": {
+      "sha512": "cnjIL1GoLUifD1TA3QigOn9R3yKoidzahlS5GQHVYhO3AoZ5mknqWiZ7IbU9lVFVlMbVvI65ecSiG5j4T2ufCg==",
+      "type": "package",
+      "path": "xamarin.android.support.media.compat/25.4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/MonoAndroid70/Xamarin.Android.Support.Media.Compat.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll",
+        "xamarin.android.support.media.compat.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.media.compat.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.v4/25.4.0.2": {
+      "sha512": "Ui29//+zltXe4Z+OmzdwjLWRGdcmCAm4sklF/As/dEwALxur8vff7/C4rIm/khJNo1ZbeKYnVseaaia/TsZeTA==",
+      "type": "package",
+      "path": "xamarin.android.support.v4/25.4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/MonoAndroid70/Xamarin.Android.Support.v4.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.v4.dll",
+        "xamarin.android.support.v4.25.4.0.2.nupkg.sha512",
+        "xamarin.android.support.v4.nuspec"
       ]
     },
     "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -3608,6 +3871,50 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
+    "ZXing.Net.Mobile/2.4.1": {
+      "sha512": "iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
+      "type": "package",
+      "path": "zxing.net.mobile/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll",
+        "lib/MonoAndroid71/ZXingNetMobile.dll",
+        "lib/MonoAndroid71/zxing.portable.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Core.dll",
+        "lib/UAP10/ZXingNetMobile.dll",
+        "lib/UAP10/ZXingNetMobile.pri",
+        "lib/UAP10/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/UAP10/zxing.portable.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
+        "lib/Xamarin.iOS10/ZXingNetMobile.dll",
+        "lib/Xamarin.iOS10/zxing.portable.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll",
+        "lib/netstandard1.0/ZXingNetMobile.dll",
+        "lib/netstandard1.0/zxing.portable.dll",
+        "zxing.net.mobile.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/2.4.1": {
+      "sha512": "7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.pri",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll",
+        "zxing.net.mobile.forms.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
+      ]
+    },
     "Cinepolis/1.0.0": {
       "type": "project",
       "path": "../Cinepolis/Cinepolis.csproj",
@@ -3624,6 +3931,8 @@
       "Xam.Forms.VideoPlayer >= 1.0.8",
       "Xamarin.Essentials >= 1.7.2",
       "Xamarin.Forms >= 5.0.0.2401",
+      "ZXing.Net.Mobile >= 2.4.1",
+      "ZXing.Net.Mobile.Forms >= 2.4.1",
       "sqlite-net-pcl >= 1.8.116"
     ]
   },
@@ -3696,6 +4005,14 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2401, )"
+          },
+          "ZXing.Net.Mobile": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "ZXing.Net.Mobile.Forms": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

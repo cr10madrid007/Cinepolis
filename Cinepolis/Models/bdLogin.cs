@@ -1,8 +1,6 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using SQLite;
-using Cinepolis.Models;
 using System.Threading.Tasks;
 namespace Cinepolis.Models
 {
@@ -63,7 +61,7 @@ namespace Cinepolis.Models
             return db.DeleteAsync(emple);
         }
 
-        
+
 
     }
 }

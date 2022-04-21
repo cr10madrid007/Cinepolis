@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -26,7 +22,7 @@ namespace Cinepolis.vMenu
         int contador = 0;
         string id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, banner__, video__, hora__;
 
-        public silla(string id_, string nombre_, string synopsis_, string anio_, string clasificacion_, string genero_, string director_, string duracion_, string video_, string banner_,string hora_)
+        public silla(string id_, string nombre_, string synopsis_, string anio_, string clasificacion_, string genero_, string director_, string duracion_, string video_, string banner_, string hora_)
         {
             InitializeComponent();
 
@@ -91,12 +87,13 @@ namespace Cinepolis.vMenu
 
         private void btn1_Clicked(object sender, EventArgs e)
         {
-            if(cbtn1==0)
+            if (cbtn1 == 0)
             {
                 btn1.BackgroundColor = Color.Green;
                 cbtn1 = 1;
                 contador++;
-            }else
+            }
+            else
             {
                 btn1.BackgroundColor = Color.Default;
                 cbtn1 = 0;
@@ -157,7 +154,7 @@ namespace Cinepolis.vMenu
             contadorF();
         }
 
-        
+
         private void btn5_Clicked(object sender, EventArgs e)
         {
             if (cbtn5 == 0)
@@ -777,12 +774,12 @@ namespace Cinepolis.vMenu
             lblCantidad.Text = "Asientos seleccionados: " + contador;
         }
 
-      
+
 
 
         async void consuta1()
         {
-           
+
             var direc = new Clases.ruta();
             String direccion = direc.ruta_();
             direccion = direccion + "Cinepolis/tclientes/buscarSilla.php";
@@ -807,13 +804,13 @@ namespace Cinepolis.vMenu
             }
             if (rsp.Equals("si"))
             {
-                btn1.IsEnabled=false;
-                btn1.BackgroundColor=Color.LightBlue;
-                btn1.TextColor=Color.Black;
+                btn1.IsEnabled = false;
+                btn1.BackgroundColor = Color.LightBlue;
+                btn1.TextColor = Color.Black;
             }
-            else if(rsp.Equals("no"))
+            else if (rsp.Equals("no"))
             {
-                btn1.IsEnabled=true;
+                btn1.IsEnabled = true;
             }
 
         }
@@ -2302,59 +2299,71 @@ namespace Cinepolis.vMenu
 
         async private void btnContinuar_Clicked(object sender, EventArgs e)
         {
-            int[] a;
-            a = new int[40];
-            a[0] = cbtn1;
-            a[1] = cbtn2;
-            a[2] = cbtn3;
-            a[3] = cbtn4;
-            a[4] = cbtn5;
-            a[5] = cbtn6;
-            a[6] = cbtn7;
-            a[7] = cbtn8;
-            a[8] = cbtn9;
-            a[9] = cbtn10;
-            a[10] = cbtn11;
-            a[11] = cbtn12;
-            a[12] = cbtn13;
-            a[13] = cbtn14;
-            a[14] = cbtn15;
-            a[15] = cbtn16;
-            a[16] = cbtn17;
-            a[17] = cbtn18;
-            a[18] = cbtn19;
-            a[19] = cbtn20;
-            a[20] = cbtn21;
-            a[21] = cbtn22;
-            a[22] = cbtn23;
-            a[23] = cbtn24;
-            a[24] = cbtn25;
-            a[25] = cbtn26;
-            a[26] = cbtn27;
-            a[27] = cbtn28;
-            a[28] = cbtn29;
-            a[29] = cbtn30;
-            a[30] = cbtn31;
-            a[31] = cbtn32;
-            a[32] = cbtn33;
-            a[33] = cbtn34;
-            a[34] = cbtn35;
-            a[35] = cbtn36;
-            a[36] = cbtn37;
-            a[37] = cbtn38;
-            a[38] = cbtn39;
-            a[39] = cbtn40;
-
-            for (int i = 0; i < 40; i++)
+            try
             {
-                if (a[i] == 1)
+                if (contador == 0)
                 {
-                    a[i] = i + 1;
+                    await DisplayAlert("Error", "Debe seleccionar una silla minimo", "ok");
                 }
-            }
+                else
+                {
+                    int[] a;
+                    a = new int[40];
+                    a[0] = cbtn1;
+                    a[1] = cbtn2;
+                    a[2] = cbtn3;
+                    a[3] = cbtn4;
+                    a[4] = cbtn5;
+                    a[5] = cbtn6;
+                    a[6] = cbtn7;
+                    a[7] = cbtn8;
+                    a[8] = cbtn9;
+                    a[9] = cbtn10;
+                    a[10] = cbtn11;
+                    a[11] = cbtn12;
+                    a[12] = cbtn13;
+                    a[13] = cbtn14;
+                    a[14] = cbtn15;
+                    a[15] = cbtn16;
+                    a[16] = cbtn17;
+                    a[17] = cbtn18;
+                    a[18] = cbtn19;
+                    a[19] = cbtn20;
+                    a[20] = cbtn21;
+                    a[21] = cbtn22;
+                    a[22] = cbtn23;
+                    a[23] = cbtn24;
+                    a[24] = cbtn25;
+                    a[25] = cbtn26;
+                    a[26] = cbtn27;
+                    a[27] = cbtn28;
+                    a[28] = cbtn29;
+                    a[29] = cbtn30;
+                    a[30] = cbtn31;
+                    a[31] = cbtn32;
+                    a[32] = cbtn33;
+                    a[33] = cbtn34;
+                    a[34] = cbtn35;
+                    a[35] = cbtn36;
+                    a[36] = cbtn37;
+                    a[37] = cbtn38;
+                    a[38] = cbtn39;
+                    a[39] = cbtn40;
 
-            var pagina = new pagarEntrada(id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, video__, banner__, hora__, a);
-            await Navigation.PushAsync(pagina);
+                    for (int i = 0; i < 40; i++)
+                    {
+                        if (a[i] == 1)
+                        {
+                            a[i] = i + 1;
+                        }
+                    }
+
+                    var pagina = new pagarEntrada(id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, video__, banner__, hora__, a);
+                    await Navigation.PushAsync(pagina);
+                }
+
+            }
+            catch (Exception ex) { }
         }
 
 

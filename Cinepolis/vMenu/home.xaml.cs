@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -25,9 +21,10 @@ namespace Cinepolis.vMenu
             await Navigation.PushAsync(pagina);
         }
 
-        private void slComida_Tapped(object sender, EventArgs e)
+        async private void slComida_Tapped(object sender, EventArgs e)
         {
-
+            var pagina = new carrito();
+            await Navigation.PushAsync(pagina);
         }
 
         private void slUbicacion_Tapped(object sender, EventArgs e)
@@ -35,9 +32,10 @@ namespace Cinepolis.vMenu
 
         }
 
-        private void slUsuario_Tapped(object sender, EventArgs e)
+        async private void slUsuario_Tapped(object sender, EventArgs e)
         {
-
+            var pagina = new actualizarContacto();
+            await Navigation.PushAsync(pagina);
         }
 
         private void slHistorial_Tapped(object sender, EventArgs e)
@@ -45,9 +43,20 @@ namespace Cinepolis.vMenu
 
         }
 
-        private void slSalir_Tapped(object sender, EventArgs e)
+        async private void slSalir_Tapped(object sender, EventArgs e)
         {
+            var datos = await App.BaseDatos.ObtenerCliente();
+            int  cor= datos.codigo;
+            var emple = new Models.constructorLogin
+            {
+                codigo = Convert.ToInt32(cor)
+            };
+            var resultado = await App.BaseDatos.EmpleadoBorrar(emple);
 
+            var pagina = new MainPage();
+            await Navigation.PushAsync(pagina);
         }
+
+        
     }
 }

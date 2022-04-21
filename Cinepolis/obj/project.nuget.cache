@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "11AQnPx2drP0lHjqOzZVnV8GR46xTIgga2cAgZOyAyZckIFrWKjaO6+0STN79MIseQX94fImdOMWJpBpspbQUA==",
+  "dgSpecHash": "TdDVyzRebLpnwkz8SgwBP+qiFwTa83iHwScHJahgemNbmTfDTOdjqbZUSbSGAC1dl0Hb2euw0PyCd690iFxqPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\crist\\source\\repos\\Cinepolis\\Cinepolis\\Cinepolis.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,9 @@
     "C:\\Users\\crist\\.nuget\\packages\\videolan.libvlc.android\\3.2.0.1\\videolan.libvlc.android.3.2.0.1.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\xam.forms.videoplayer\\1.0.8\\xam.forms.videoplayer.1.0.8.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\xamarin.essentials\\1.7.2\\xamarin.essentials.1.7.2.nupkg.sha512",
-    "C:\\Users\\crist\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512"
+    "C:\\Users\\crist\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

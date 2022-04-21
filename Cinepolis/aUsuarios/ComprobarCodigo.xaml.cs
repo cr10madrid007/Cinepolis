@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Cinepolis.Clases;
+using System;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using Cinepolis.Clases;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,7 +9,7 @@ namespace Cinepolis.aUsuarios
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ComprobarCodigo : ContentPage
     {
-        String correo_,a;
+        String correo_, a;
         public ComprobarCodigo(String correo)
         {
             InitializeComponent();

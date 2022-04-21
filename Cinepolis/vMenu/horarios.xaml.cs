@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,7 +12,7 @@ namespace Cinepolis.vMenu
     {
         string id__, nombre__, synopsis__, anio__, clasificacion__, genero__, director__, duracion__, banner__, video__;
 
-       
+
 
         public horarios(string id_, string nombre_, string synopsis_, string anio_, string clasificacion_, string genero_, string director_, string duracion_, string video_, string banner_)
         {
@@ -41,7 +37,7 @@ namespace Cinepolis.vMenu
             horarioFTres();
             horarioFCinco();
             horarioFSiete();
-            
+
         }
         async void horarioFTres()
         {
@@ -149,7 +145,8 @@ namespace Cinepolis.vMenu
                         await Navigation.PushAsync(pagina);
                     }
                 }
-            }catch (Exception ex) { }
+            }
+            catch (Exception ex) {  }
         }
 
         async private void rbCinco_CheckedChanged(object sender, CheckedChangedEventArgs e)
@@ -166,7 +163,8 @@ namespace Cinepolis.vMenu
                         await Navigation.PushAsync(pagina);
                     }
                 }
-            }catch(Exception ex) { }
+            }
+            catch (Exception ex) { }
         }
 
         async private void rbTres_CheckedChanged(object sender, CheckedChangedEventArgs e)
@@ -183,10 +181,11 @@ namespace Cinepolis.vMenu
                         await Navigation.PushAsync(pagina);
                     }
                 }
-            }catch (Exception ex) { }
+            }
+            catch (Exception ex) { }
         }
 
-        
+
 
 
     }

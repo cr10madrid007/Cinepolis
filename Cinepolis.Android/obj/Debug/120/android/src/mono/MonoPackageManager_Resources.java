@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Cinepolis.Android.dll" comes first in this list. */
 		"Cinepolis.Android.dll",
 		"Cinepolis.dll",
+		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
 		"LibVLCSharp.Android.AWindow.dll",
 		"LibVLCSharp.dll",
@@ -16,6 +17,13 @@ public class MonoPackageManager_Resources {
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
 		"Xam.Forms.VideoPlayer.Android.dll",
 		"Xam.Forms.VideoPlayer.dll",
+		"Xamarin.Android.Support.Annotations.dll",
+		"Xamarin.Android.Support.Compat.dll",
+		"Xamarin.Android.Support.Core.UI.dll",
+		"Xamarin.Android.Support.Core.Utils.dll",
+		"Xamarin.Android.Support.Fragment.dll",
+		"Xamarin.Android.Support.Media.Compat.dll",
+		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",
@@ -75,6 +83,11 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Xaml.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Google.Guava.ListenableFuture.dll",
+		"ZXing.Net.Mobile.Core.dll",
+		"ZXing.Net.Mobile.Forms.Android.dll",
+		"ZXing.Net.Mobile.Forms.dll",
+		"zxing.portable.dll",
+		"ZXingNetMobile.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

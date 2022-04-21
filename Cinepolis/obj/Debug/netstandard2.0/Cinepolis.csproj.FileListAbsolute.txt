@@ -1,6 +1,5 @@
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\bin\Debug\netstandard2.0\Cinepolis.deps.json
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\bin\Debug\netstandard2.0\Cinepolis.dll
-C:\Users\crist\source\repos\Cinepolis\Cinepolis\bin\Debug\netstandard2.0\ref\Cinepolis.dll
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\bin\Debug\netstandard2.0\Cinepolis.pdb
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\Cinepolis.csproj.AssemblyReference.cache
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\Cinepolis.GeneratedMSBuildEditorConfig.editorconfig
@@ -24,3 +23,9 @@ C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\r
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\horarios.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\silla.xaml.g.cs
 C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\pagarEntrada.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\refint\Cinepolis.dll
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\peliculaQR.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\actualizarContacto.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\carrito.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\carritoCompra.xaml.g.cs
+C:\Users\crist\source\repos\Cinepolis\Cinepolis\obj\Debug\netstandard2.0\vMenu\comidaQR.xaml.g.cs

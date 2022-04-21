@@ -1,13 +1,9 @@
 ﻿using Cinepolis.Clases;
 using Cinepolis.Models;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Cinepolis
@@ -26,24 +22,25 @@ namespace Cinepolis
             base.OnAppearing();
             var datos = await App.BaseDatos.listaempleados();
             int n = datos.Count();
-            if (n== 1)
+            if (n == 1)
             {
                 var pagina = new vMenu.home();
                 await Navigation.PushAsync(pagina);
 
-                
-               
+
+
             }
-            
+
 
         }
-            private async void btnContinuar_Clicked(object sender, EventArgs e)
+        private async void btnContinuar_Clicked(object sender, EventArgs e)
         {
             if (String.IsNullOrWhiteSpace(txtCorreo.Text) || String.IsNullOrWhiteSpace(txtContra.Text))
             {
                 await DisplayAlert("Error", "Es necesario llenar los campos", "OK");
             }
-            else {
+            else
+            {
 
                 var direc = new ruta();
                 String direccion = direc.ruta_();
@@ -62,8 +59,9 @@ namespace Cinepolis
                     Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
                     var rs = respuesta.Content.ReadAsStringAsync().Result;
 
-                    
-                    if (rs.Equals("NO")){
+
+                    if (rs.Equals("NO"))
+                    {
                         await DisplayAlert("Error", "Datos Incorrectos", "Ok");
                     }
                     else
@@ -82,19 +80,20 @@ namespace Cinepolis
                         }
 
                     }
-                  
+
                 }
 
             }
         }
 
 
-        void  lblCrearFunc()
+        void lblCrearFunc()
         {
             lblCrear.GestureRecognizers.Add(new TapGestureRecognizer()
             {
 
-                Command = new Command(() => {
+                Command = new Command(() =>
+                {
                     var pagina = new aUsuarios.RegistrarUsuario();
 
                     Navigation.PushAsync(pagina);
@@ -109,7 +108,8 @@ namespace Cinepolis
             lblOlvido.GestureRecognizers.Add(new TapGestureRecognizer()
             {
 
-                Command = new Command(() => {
+                Command = new Command(() =>
+                {
                     var pagina = new aUsuarios.OlvidoContraseña();
 
                     Navigation.PushAsync(pagina);

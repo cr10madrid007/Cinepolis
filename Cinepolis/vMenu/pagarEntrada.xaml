@@ -45,7 +45,6 @@
 
 
 
-
             <Grid>
                 <Button Grid.Column="0" Text="Atras" BackgroundColor="HotPink" x:Name="btnAtras"  Clicked="btnAtras_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>
                 <Button Grid.Column="1" Text="Continuar" BackgroundColor="HotPink" x:Name="btnContinuar" Clicked="btnContinuar_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>

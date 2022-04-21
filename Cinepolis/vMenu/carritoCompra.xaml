@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" BackgroundColor="White"
+             x:Class="Cinepolis.vMenu.carritoCompra" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="Cinepolis" TextColor="Black" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="Confirmar Pago" TextColor="Black" FontSize="Subtitle" FontAttributes="Bold" HorizontalTextAlignment="Center"  />
+                <Grid>
+                    <Label  Margin="5,0,0,0" Grid.Column="0" TextColor="Black" Text="Nombre del comprador:" FontAttributes="Bold" />
+                    <Label  Margin="0,0,5,0" Grid.Column="1" TextColor="Black" x:Name="lblComprador"  />
+                </Grid>
+                <Grid>
+                    <Label  Margin="5,0,0,0" Grid.Column="0" TextColor="Black" Text="Correo del comprador:" FontAttributes="Bold" />
+                    <Label  Margin="0,0,5,0" Grid.Column="1" TextColor="Black" x:Name="lblCorreoComprador"  />
+                </Grid>
+                
+                <Grid>
+                    <Label  Margin="5,0,0,0" Grid.Column="0" TextColor="Black" Text="Fecha:" FontAttributes="Bold" />
+                    <Label  Margin="0,0,5,0" Grid.Column="1" TextColor="Black" x:Name="lblFecha"  />
+                </Grid>
+                
+                <Grid>
+                    <Label  Margin="5,0,0,0" Grid.Column="0" TextColor="Black" Text="Golosinas a comprar:" FontAttributes="Bold" />
+                    <Label  Margin="0,0,5,0" Grid.Column="1" TextColor="Black" x:Name="lblGolosinas"  />
+                </Grid>
+                <Grid>
+                    <Label  Margin="5,0,0,0" Grid.Column="0" TextColor="Black" Text="Lugar:" FontAttributes="Bold" />
+                    <Label  Margin="0,0,5,0" Grid.Column="1" TextColor="Black" x:Name="lblLugar"  />
+                </Grid>
+                
+                <Grid>
+                    <Label  Margin="5,0,0,0" Grid.Column="0" TextColor="Black" Text="Total apagar:" FontAttributes="Bold" />
+                    <Label  Margin="0,0,5,0" Grid.Column="1" TextColor="Black" x:Name="lblTp"  />
+                </Grid>
+
+
+
+                <Grid>
+                    <Button Grid.Column="0" Text="Atras" BackgroundColor="HotPink" x:Name="btnAtras"  Clicked="btnAtras_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>
+                    <Button Grid.Column="1" Text="Continuar" BackgroundColor="HotPink" x:Name="btnContinuar" Clicked="btnContinuar_Clicked" TextColor="White" CornerRadius="30" Margin="0,0,0,10"/>
+                </Grid>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

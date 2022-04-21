@@ -1,12 +1,7 @@
 ﻿using Cinepolis.Controller;
-using Cinepolis.Models;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -19,22 +14,22 @@ namespace Cinepolis.vMenu
         public peliculas()
         {
             InitializeComponent();
-            
+
 
         }
 
-       
+
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-           
-            
+
+
             var datos = await App.BaseDatos.ObtenerCliente();
 
 
             var correo = datos.correo;
-            
-            
+
+
 
             var direc = new Clases.ruta();
             String direccion = direc.ruta_();
