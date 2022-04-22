@@ -1,8 +1,10 @@
 ﻿
 using Android.App;
 using Android.Content.PM;
+using Android.Gms.Common;
 using Android.OS;
 using Android.Runtime;
+using Xamarin.Essentials;
 
 namespace Cinepolis.Droid
 {
@@ -12,6 +14,7 @@ namespace Cinepolis.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            IsPlayServicesAvailable();
             Xam.Forms.VideoPlayer.Android.VideoPlayerRenderer.Init();
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
@@ -24,5 +27,14 @@ namespace Cinepolis.Droid
             global::ZXing.Net.Mobile.Android.PermissionsHandler.OnRequestPermissionsResult(requestCode,permissions, grantResults);
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
+        public void IsPlayServicesAvailable()
+        {
+            int resultCode = GoogleApiAvailability.Instance.IsGooglePlayServicesAvailable(this);
+            bool isGooglePlayServce = resultCode != ConnectionResult.Success;
+            Preferences.Set("isGooglePlayServce", isGooglePlayServce);
+
+        }
+
     }
 }

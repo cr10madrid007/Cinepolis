@@ -66,9 +66,17 @@
               "target": "Package",
               "version": "[1.7.2, )"
             },
+            "Xamarin.Firebase.Messaging": {
+              "target": "Package",
+              "version": "[71.1740.4, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2401, )"
+            },
+            "Xamarin.GooglePlayServices.Base": {
+              "target": "Package",
+              "version": "[71.1610.4, )"
             },
             "ZXing.Net.Mobile": {
               "target": "Package",
