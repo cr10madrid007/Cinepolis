@@ -98,7 +98,7 @@
                                     <Image Source="numeral.jfif" Aspect="AspectFill" Margin="0"/>
                                 </Frame>
 
-                                <Entry Placeholder="Numero de la tarjeta" MaxLength="16" x:Name="txtNumero" Keyboard="Numeric" TextColor="Black"   PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                <Entry Placeholder="Numero de la tarjeta (16) carácteres" MaxLength="16" x:Name="txtNumero" Keyboard="Numeric" TextColor="Black"   PlaceholderColor="Gray" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
                             </StackLayout>
                         </Frame>
 

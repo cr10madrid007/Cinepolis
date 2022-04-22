@@ -63,19 +63,19 @@ namespace Cinepolis.vMenu
             }
         }
 
-        async private void rbSps_CheckedChanged(object sender, CheckedChangedEventArgs e)
+         private void rbSps_CheckedChanged(object sender, CheckedChangedEventArgs e)
         {
             try
             {
                 if (rbSps.IsChecked == true)
                 {
-                    ubicacion = "San pedro Sula";
+                    ubicacion = "San Pedro Sula";
                 }
             }
             catch (Exception ex) { }
         }
 
-        async private void rbTeg_CheckedChanged(object sender, CheckedChangedEventArgs e)
+         private void rbTeg_CheckedChanged(object sender, CheckedChangedEventArgs e)
         {
             try
             {

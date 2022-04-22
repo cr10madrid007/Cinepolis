@@ -20,7 +20,7 @@
                 </StackLayout.GestureRecognizers>
                 <Image Source="cb1.jpg" WidthRequest="150" HeightRequest="200" />
                 <Label Text="Combo. Palomitas de maíz + dos refrescos (L. 120)" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
-                <Label Text="Cantidad: 0" x:Name="cantidadCb1"/>
+                <Label Text="Cantidad: 0" x:Name="cantidadCb1" TextColor="Black"/>
                 <Slider MinimumTrackColor="Black" ThumbColor="DarkSlateGray" Minimum="0" Maximum="10" Value="1" x:Name="sliderCb1" ValueChanged="sliderCb1_ValueChanged"/>
                 
 
@@ -33,7 +33,7 @@
                 </StackLayout.GestureRecognizers>
                 <Image Source="cb2.jpg" WidthRequest="150" HeightRequest="200" />
                 <Label Text="Combo palomitas de maíz + un refresco (L. 95)"  FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
-                <Label Text="Cantidad: 0" x:Name="cantidadCb2"/>
+                <Label Text="Cantidad: 0" TextColor="Black" x:Name="cantidadCb2"/>
                 <Slider MinimumTrackColor="Black" ThumbColor="DarkSlateGray" Minimum="0" Maximum="10" Value="1" x:Name="sliderCb2" ValueChanged="sliderCb2_ValueChanged"/>
                
             </StackLayout>
@@ -44,7 +44,7 @@
                 </StackLayout.GestureRecognizers>
                 <Image Source="cb3.jpg" WidthRequest="150" HeightRequest="200" />
                 <Label Text="Combo nachos + un refresco (L. 100) "  FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
-                <Label Text="Cantidad: 0" x:Name="cantidadCb3"/>
+                <Label Text="Cantidad: 0"  TextColor="Black" x:Name="cantidadCb3"/>
                 <Slider MinimumTrackColor="Black" ThumbColor="DarkSlateGray" Minimum="0" Maximum="10" Value="1" x:Name="sliderCb3" ValueChanged="sliderCb3_ValueChanged"/>
                 
             </StackLayout>
@@ -55,7 +55,7 @@
                 </StackLayout.GestureRecognizers>
                 <Image Source="cb4.jpg" WidthRequest="150" HeightRequest="200" />
                 <Label Text="Refresco adicional tiene un costo de 35"  FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center"/>
-                <Label Text="Cantidad: 0" x:Name="cantidadCb4"/>
+                <Label Text="Cantidad: 0" TextColor="Black" x:Name="cantidadCb4"/>
                 <Slider MinimumTrackColor="Black" ThumbColor="DarkSlateGray" Minimum="0" Maximum="10" Value="1" x:Name="sliderCb4" ValueChanged="sliderCb4_ValueChanged"/>
                 
             </StackLayout>

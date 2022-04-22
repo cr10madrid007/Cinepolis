@@ -30,10 +30,11 @@ namespace Cinepolis.aUsuarios
 
 
             obtener();
+            int cant = numeroT.Length;
 
-            if (String.IsNullOrWhiteSpace(nombre) || String.IsNullOrWhiteSpace(apellido) || String.IsNullOrWhiteSpace(correo) || String.IsNullOrWhiteSpace(contraseña) || String.IsNullOrWhiteSpace(nombreT) || String.IsNullOrWhiteSpace(numeroT) || String.IsNullOrWhiteSpace(fechaT) || String.IsNullOrWhiteSpace(codigoT))
+            if (String.IsNullOrWhiteSpace(nombre) || String.IsNullOrWhiteSpace(apellido) || String.IsNullOrWhiteSpace(correo) || String.IsNullOrWhiteSpace(contraseña) || String.IsNullOrWhiteSpace(nombreT) || String.IsNullOrWhiteSpace(numeroT) || String.IsNullOrWhiteSpace(fechaT) || String.IsNullOrWhiteSpace(codigoT) || cant !=16)
             {
-                await DisplayAlert("Error", "Es necesario llenar todos los campos.", "OK");
+                await DisplayAlert("Error", "Es necesario llenar todos los campos correctamente.", "OK");
             }
             else
             {

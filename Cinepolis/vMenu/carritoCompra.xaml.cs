@@ -19,9 +19,9 @@ namespace Cinepolis.vMenu
         {
             InitializeComponent();
             datoCorreo();
-            datoNombre();
+           
             
-            ubicacion();
+            
             
             
             lblFecha.Text = DateTime.Now.ToString();
@@ -43,19 +43,13 @@ namespace Cinepolis.vMenu
         async void datoCorreo()
         {
             var datos = await App.BaseDatos.ObtenerCliente();
-            var cor = datos.correo;
-            correoG= datos.correo.ToString();
-            lblCorreoComprador.Text=datos.correo.ToString();
             
+            lblCorreoComprador.Text=datos.correo.ToString();
+            lblComprador.Text = datos.nombre.ToString();
+            ubicacion();
         }
 
-        async void datoNombre()
-        {
-            var datos = await App.BaseDatos.ObtenerCliente();
-
-
-            lblComprador.Text= datos.nombre.ToString();
-        }
+        
 
         async void subirCompra(string tarjeta_)
         {
@@ -117,14 +111,18 @@ namespace Cinepolis.vMenu
             }
         }
 
-            async void ubicacion()
+        async void ubicacion()
         {
+
+
+
+
             var direc = new Clases.ruta();
             String direccion = direc.ruta_();
             direccion = direccion + "Cinepolis/tclientes/consultaClientesCorreo.php";
 
             MultipartFormDataContent parametros = new MultipartFormDataContent();
-            StringContent email = new StringContent(correoG);
+            StringContent email = new StringContent(lblCorreoComprador.Text);
 
             parametros.Add(email, "correo");
 
@@ -137,22 +135,13 @@ namespace Cinepolis.vMenu
 
                 location = respuesta.Content.ReadAsStringAsync().Result;
 
-                if(location.Equals("San Pedro Sula")) {
-
-                    lblLugar.Text = location;
-                } else
-                {
-                    lblLugar.Text = "Tegucigalpa";
-                }
-
-
+                lblLugar.Text = location;
             }
-
-            
 
 
 
         }
+
 
         async void comprobar()
         {

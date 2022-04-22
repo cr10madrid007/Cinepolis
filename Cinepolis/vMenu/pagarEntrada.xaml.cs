@@ -48,12 +48,12 @@ namespace Cinepolis.vMenu
             }
             sillaMostrar = sillaMostrar + "\nTotal de sillas a comprar: (" + contadorSilla.ToString() + ")";
 
-            var correo = datoCorreo();
-            var nombreC = datoNombre();
 
-            string correo2 = correo.Result;
-            //DisplayAlert("t", correo2, "ok");
-            ubicacion(correo2);
+            datoCorreo();
+            
+
+
+           
 
             lblPelicula.Text = nombre_;
             lblFecha.Text = DateTime.Now.ToString();
@@ -61,8 +61,7 @@ namespace Cinepolis.vMenu
 
             lblDuracion.Text = duracion_;
             lblSillas.Text = sillaMostrar;
-            lblComprador.Text = nombreC.Result;
-            lblCorreoComprador.Text = correo.Result;
+            
 
             int tap = contadorSilla * 100;
             lblTp.Text = "L. " + tap.ToString() + ".00";
@@ -77,20 +76,15 @@ namespace Cinepolis.vMenu
         }
 
 
-        async Task<string> datoCorreo()
+        async void datoCorreo()
         {
             var datos = await App.BaseDatos.ObtenerCliente();
-            var cor = datos.correo;
-            return cor;
+            lblCorreoComprador.Text = datos.correo.ToString();
+            lblComprador.Text= datos.nombre.ToString();
+            ubicacion(lblCorreoComprador.Text);
         }
 
-        async Task<string> datoNombre()
-        {
-            var datos = await App.BaseDatos.ObtenerCliente();
 
-
-            return datos.nombre;
-        }
 
         async void ubicacion(string correo)
         {
