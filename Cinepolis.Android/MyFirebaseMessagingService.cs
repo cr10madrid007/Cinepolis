@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using Android.App;
 using Android.Content;
 using Android.Media;
 using Android.Util;
 using Firebase.Messaging;
 using Xamarin.Essentials;
+using Cinepolis.Clases;
+using Cinepolis.vMenu;
 
 namespace Cinepolis.Droid
 {
@@ -17,10 +20,12 @@ namespace Cinepolis.Droid
         public override void OnMessageReceived(RemoteMessage message)
         {
 
-            Log.Debug(TAG, "From: " + message.From);
-            Log.Debug(TAG, "Notification Message Body: " + message.GetNotification().Body);
-            androidNotification.CrearNotificacionLocal(message.GetNotification().Title, message.GetNotification().Body);
+            IDictionary<string, string> MensajeData = message.Data;
 
+            string Titulo = MensajeData["notiTitle"];
+            string SubTitulo = MensajeData["notiBody"];
+
+            androidNotification.CrearNotificacionLocal(Titulo, SubTitulo);
         }
         public override void OnNewToken(string token)
         {
@@ -31,7 +36,10 @@ namespace Cinepolis.Droid
         }
         public void sedRegisterToken(string token)
         {
-            //Tu código para registrar el token a tu servidor y base de datos
+            var direc = new Clases.addClass();
+            direc.registrar(token);
+
+
         }
     }
 }
